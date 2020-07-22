@@ -150,7 +150,7 @@ namespace NHTSAVehicleAPITest
         /// <summary>
         /// Test <see cref="ReadAPI.GetModels(string, int)"/> by passing in an empty manufacturer
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live))]
+        [TestMethod, TestCategory(TestGroups.Live)]
         public void TestGetModels_EmptyManufacturer_2013()
         {
             bool caughtException = false;
