@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/CADustin/proj-nhtsa-vehicle-api</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <Authors>Dustin Ellis</Authors>
+    <Company></Company>
+    <Description>Read from the NHTSA Vehicle API.
+
+</Description>
+    <PackageProjectUrl>https://github.com/CADustin/proj-nhtsa-vehicle-api</PackageProjectUrl>
+    <Copyright>Copyright (c) 2020 Dustin Ellis.</Copyright>
+  </PropertyGroup>
+
+</Project>

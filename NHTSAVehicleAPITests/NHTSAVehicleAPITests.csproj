@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\GetAllMakes.xml" />
+    <None Remove="Data\GetMakesForManufacturerAndYear_2013.xml" />
+    <None Remove="Data\GetMakesForManufacturer_Honda.xml" />
+    <None Remove="Data\GetManufacturerDetails_Honda.xml" />
+    <None Remove="Data\GetModelsForMakeIdYear_474_2015.xml" />
+    <None Remove="Data\GetModelsForMakeId_440.xml" />
+    <None Remove="Data\GetModelsForMakeYear_Honda_2015.xml" />
+    <None Remove="Data\GetModelsForMake_Honda.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\GetAllMakes.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\GetMakesForManufacturerAndYear_2013.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\GetMakesForManufacturer_Honda.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\GetManufacturerDetails_Honda.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\GetModelsForMakeIdYear_474_2015.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\GetModelsForMakeId_440.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\GetModelsForMakeYear_Honda_2015.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\GetModelsForMake_Honda.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NHTSAVehicleAPI\NHTSAVehicleAPI.csproj" />
+  </ItemGroup>
+
+</Project>

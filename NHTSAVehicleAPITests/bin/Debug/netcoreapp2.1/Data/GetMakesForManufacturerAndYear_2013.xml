@@ -1,0 +1,1453 @@
+<Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Count>241</Count>
+  <Message>Response returned successfully</Message>
+  <SearchCriteria>Manufacturer : mer, Year: 2014</SearchCriteria>
+  <Results>
+    <MakesForMfrYear>
+      <MakeId>451</MakeId>
+      <MakeName>Fulmer Fabrications</MakeName>
+      <MfrId>965</MfrId>
+      <MfrName>FULMER FABRICATIONS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>478</MakeId>
+      <MakeName>Nissan</MakeName>
+      <MfrId>997</MfrId>
+      <MfrName>NISSAN NORTH AMERICA, INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>487</MakeId>
+      <MakeName>Volvo Truck </MakeName>
+      <MfrId>1015</MfrId>
+      <MfrName>VOLVO GROUP NORTH AMERICA, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>498</MakeId>
+      <MakeName>Hyundai</MakeName>
+      <MfrId>1034</MfrId>
+      <MfrName>HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5083</MakeId>
+      <MakeName>Genesis</MakeName>
+      <MfrId>1034</MfrId>
+      <MfrName>HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>452</MakeId>
+      <MakeName>BMW</MakeName>
+      <MfrId>968</MfrId>
+      <MfrName>BMW MANUFACTURER CORPORATION / BMW NORTH AMERICA</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>449</MakeId>
+      <MakeName>Mercedes-Benz</MakeName>
+      <MfrId>1042</MfrId>
+      <MfrName>Mercedes-Benz Cars</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>533</MakeId>
+      <MakeName>Maybach</MakeName>
+      <MfrId>1042</MfrId>
+      <MfrName>Mercedes-Benz Cars</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>504</MakeId>
+      <MakeName>smart</MakeName>
+      <MfrId>1042</MfrId>
+      <MfrName>Mercedes-Benz Cars</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>474</MakeId>
+      <MakeName>Honda</MakeName>
+      <MfrId>988</MfrId>
+      <MfrName>HONDA OF AMERICA MFG., INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>475</MakeId>
+      <MakeName>Acura</MakeName>
+      <MfrId>988</MfrId>
+      <MfrName>HONDA OF AMERICA MFG., INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>511</MakeId>
+      <MakeName>E-One</MakeName>
+      <MfrId>1050</MfrId>
+      <MfrName>EMERGENCY ONE, INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>523</MakeId>
+      <MakeName>Subaru</MakeName>
+      <MfrId>1075</MfrId>
+      <MfrName>FUJI HEAVY INDUSTRIES U.S.A., INC. (C/O SUBARU OF AMERICA)</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>480</MakeId>
+      <MakeName>Infiniti</MakeName>
+      <MfrId>997</MfrId>
+      <MfrName>NISSAN NORTH AMERICA, INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>448</MakeId>
+      <MakeName>Toyota</MakeName>
+      <MfrId>1075</MfrId>
+      <MfrName>FUJI HEAVY INDUSTRIES U.S.A., INC. (C/O SUBARU OF AMERICA)</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>499</MakeId>
+      <MakeName>Kia</MakeName>
+      <MfrId>1034</MfrId>
+      <MfrName>HYUNDAI-KIA AMERICA TECHNICAL CENTER INC (HATCI)</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>449</MakeId>
+      <MakeName>Mercedes-Benz</MakeName>
+      <MfrId>1043</MfrId>
+      <MfrName>MERCEDES-BENZ OF NORTH AMERICA, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>515</MakeId>
+      <MakeName>Lexus</MakeName>
+      <MfrId>962</MfrId>
+      <MfrName>TOYOTA MOTOR NORTH AMERICA, INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>509</MakeId>
+      <MakeName>Suzuki</MakeName>
+      <MfrId>1048</MfrId>
+      <MfrName>SUZUKI MOTOR OF AMERICA, INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>448</MakeId>
+      <MakeName>Toyota</MakeName>
+      <MfrId>962</MfrId>
+      <MfrName>TOYOTA MOTOR NORTH AMERICA, INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>474</MakeId>
+      <MakeName>Honda</MakeName>
+      <MfrId>1154</MfrId>
+      <MfrName>AMERICAN HONDA MOTOR CO., INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>572</MakeId>
+      <MakeName>SAAB</MakeName>
+      <MfrId>1137</MfrId>
+      <MfrName>SAAB CARS NORTH AMERICA, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>683</MakeId>
+      <MakeName>American Made</MakeName>
+      <MfrId>1255</MfrId>
+      <MfrName>AMERICAN MADE</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>684</MakeId>
+      <MakeName>American Manufacturing Operations</MakeName>
+      <MfrId>1256</MfrId>
+      <MfrName>AMERICAN MANUFACTURING OPERATIONS, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>685</MakeId>
+      <MakeName>AMERICAN MANUFACTURING SUPPORT</MakeName>
+      <MfrId>1258</MfrId>
+      <MfrName>AMERICAN MANUFACTURING SUPPORT DE MEXICO S.A. DE C.V.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>687</MakeId>
+      <MakeName>American Metal Fabrication</MakeName>
+      <MfrId>1259</MfrId>
+      <MfrName>AMERICAN METAL FABRICATION, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>689</MakeId>
+      <MakeName>American Motorcycle Corporation</MakeName>
+      <MfrId>1261</MfrId>
+      <MfrName>AMERICAN MOTORCYCLE CORPORATION</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>690</MakeId>
+      <MakeName>J&amp;D Cycles</MakeName>
+      <MfrId>1262</MfrId>
+      <MfrName>American Motorcycle Specialty Center</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>710</MakeId>
+      <MakeName>American Performance Technologies</MakeName>
+      <MfrId>1282</MfrId>
+      <MfrName>American Performance Technologies, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>715</MakeId>
+      <MakeName>AMERICAN PRODUCTS</MakeName>
+      <MfrId>1288</MfrId>
+      <MfrName>AMERICAN PRODUCTS, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>718</MakeId>
+      <MakeName>American Recreational Vehicles</MakeName>
+      <MfrId>1291</MfrId>
+      <MfrName>American Recreational Vehicles</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>719</MakeId>
+      <MakeName>American Scooter Manufacturing</MakeName>
+      <MfrId>1292</MfrId>
+      <MfrName>American Scooter Manufacturing</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>720</MakeId>
+      <MakeName>American Sport Trailer</MakeName>
+      <MfrId>1293</MfrId>
+      <MfrName>American Sport Trailer Company LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>727</MakeId>
+      <MakeName>American Star Metal Fabrication</MakeName>
+      <MfrId>6518</MfrId>
+      <MfrName>AMERICAN STAR METAL FABRICATION LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>728</MakeId>
+      <MakeName>American Steel Fabricators</MakeName>
+      <MfrId>7167</MfrId>
+      <MfrName>AMERICAN STEEL FABRICATORS, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>730</MakeId>
+      <MakeName>American Steel Horse Cycles</MakeName>
+      <MfrId>10980</MfrId>
+      <MfrName>AMERICAN STEEL HORSE CYCLES</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>731</MakeId>
+      <MakeName>American Super Cycle</MakeName>
+      <MfrId>12133</MfrId>
+      <MfrName>AMERICAN SUPER CYCLE</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>722</MakeId>
+      <MakeName>American SportWorks</MakeName>
+      <MfrId>7020</MfrId>
+      <MfrName>AMERICAN SPORTWORKS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>738</MakeId>
+      <MakeName>Danko Emergency Equipment</MakeName>
+      <MfrId>7456</MfrId>
+      <MfrName>DANKO EMERGENCY EQUIPMENT</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>457</MakeId>
+      <MakeName>ACG</MakeName>
+      <MfrId>11595</MfrId>
+      <MfrName>AMERICAN SURPLUS &amp; MFG., INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>740</MakeId>
+      <MakeName>American Surplus &amp; MFG</MakeName>
+      <MfrId>11595</MfrId>
+      <MfrName>AMERICAN SURPLUS &amp; MFG., INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>751</MakeId>
+      <MakeName>American Teardrop</MakeName>
+      <MfrId>7073</MfrId>
+      <MfrName>AMERICAN TEARDROP</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>754</MakeId>
+      <MakeName>American Trailer Builders</MakeName>
+      <MfrId>12068</MfrId>
+      <MfrName>AMERICAN TRAILER BUILDERS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>810</MakeId>
+      <MakeName>American Truck &amp; Trailer Body</MakeName>
+      <MfrId>5177</MfrId>
+      <MfrName>AMERICAN TRUCK &amp; TRAILER BODY CO. INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>812</MakeId>
+      <MakeName>Americana Chopper</MakeName>
+      <MfrId>6688</MfrId>
+      <MfrName>AMERICANA CHOPPER COMPANY</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>830</MakeId>
+      <MakeName>Ameri-Carts</MakeName>
+      <MfrId>12209</MfrId>
+      <MfrName>AMERICA'S INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>807</MakeId>
+      <MakeName>AEP North America</MakeName>
+      <MfrId>6634</MfrId>
+      <MfrName>AEP NORTH AMERICA</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>482</MakeId>
+      <MakeName>Volkswagen</MakeName>
+      <MfrId>1147</MfrId>
+      <MfrName>VOLKSWAGEN GROUP OF AMERICA</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>887</MakeId>
+      <MakeName>Express Welding</MakeName>
+      <MfrId>12997</MfrId>
+      <MfrName>EXPRESS WELDING, INC. (FORMERLY EXPRESS WELDING, EXPRESS WELDING CO.)</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>945</MakeId>
+      <MakeName>Capstone Commerce</MakeName>
+      <MfrId>10238</MfrId>
+      <MfrName>CAPSTONE COMMERCE CO. and EGENOLF ENTERPRISE INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>949</MakeId>
+      <MakeName>EV America</MakeName>
+      <MfrId>6887</MfrId>
+      <MfrName>EV AMERICA, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>928</MakeId>
+      <MakeName>Fabricacion y Comercializacion Pena</MakeName>
+      <MfrId>7967</MfrId>
+      <MfrName>FABRICACION Y COMERCIALIZACION PENA S.A. DE C.V. DBA PENA</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>975</MakeId>
+      <MakeName>Farmer Fabrications</MakeName>
+      <MfrId>5144</MfrId>
+      <MfrName>FARMER FABRICATIONS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>990</MakeId>
+      <MakeName>EVAC</MakeName>
+      <MfrId>7657</MfrId>
+      <MfrName>EVAC EMERGENCY PREPAREDNESS EQUIPMENT &amp; SUPPLY LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1043</MakeId>
+      <MakeName>Big Bear American Made Chopper dba Big Bear Choppers</MakeName>
+      <MfrId>10880</MfrId>
+      <MfrName>BIG BEAR AMERICAN MADE CHOPPERS, INC. </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1128</MakeId>
+      <MakeName>Fontaine Trailer Co.</MakeName>
+      <MfrId>12268</MfrId>
+      <MfrName>Fontaine Commercial Platform</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1144</MakeId>
+      <MakeName>EMERALD WELDING </MakeName>
+      <MfrId>11752</MfrId>
+      <MfrName>EMERALD WELDING INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1097</MakeId>
+      <MakeName>Burch Tank &amp; Truck</MakeName>
+      <MfrId>6340</MfrId>
+      <MfrName>BURCH TANK &amp; TRUCK, INC. (FORMERLY, BURCH WELDING &amp; TANK)</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1224</MakeId>
+      <MakeName>CT&amp;T America</MakeName>
+      <MfrId>6909</MfrId>
+      <MfrName>CT&amp;T AMERICA, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1310</MakeId>
+      <MakeName>All American Choppers Co.</MakeName>
+      <MfrId>9911</MfrId>
+      <MfrName>ALL AMERICAN CHOPPERS CO.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1312</MakeId>
+      <MakeName>All American Manufacturing, Inc.</MakeName>
+      <MfrId>4838</MfrId>
+      <MfrName>ALL AMERICAN MANUFACTURING, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1338</MakeId>
+      <MakeName>Rick's Fabrication &amp; Design</MakeName>
+      <MfrId>7440</MfrId>
+      <MfrName>EDWARD R. SUMMERS </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1367</MakeId>
+      <MakeName>GREAT AMERICAN CHOPPER </MakeName>
+      <MfrId>11116</MfrId>
+      <MfrName>GREAT AMERICAN CHOPPER</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1383</MakeId>
+      <MakeName>DaimlerChrysler Commercial Bus</MakeName>
+      <MfrId>11634</MfrId>
+      <MfrName>DAIMLERCHRYSLER COMMERCIAL BUSES NORTH AMERICA </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6005</MakeId>
+      <MakeName>Orion Bus</MakeName>
+      <MfrId>11634</MfrId>
+      <MfrName>DAIMLERCHRYSLER COMMERCIAL BUSES NORTH AMERICA </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1389</MakeId>
+      <MakeName>Electric City Motors, North America</MakeName>
+      <MfrId>6643</MfrId>
+      <MfrName>ELECTRIC CITY MOTORS, NORTH AMERICA, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1413</MakeId>
+      <MakeName>Electric Vehicle Transportation of America</MakeName>
+      <MfrId>10947</MfrId>
+      <MfrName>ELECTRIC VEHICLE TRANSPORTATION OF AMERICA INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1391</MakeId>
+      <MakeName>All American Trailer Manufacturers</MakeName>
+      <MfrId>10418</MfrId>
+      <MfrName>ALL AMERICAN TRAILER MANUFACTURERS INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1514</MakeId>
+      <MakeName>AmeraTrail</MakeName>
+      <MfrId>1968</MfrId>
+      <MfrName>AMERA TRAIL INC </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1517</MakeId>
+      <MakeName>American Airboat Corporation</MakeName>
+      <MfrId>9439</MfrId>
+      <MfrName>AMERICAN AIRBOAT CORPORATION</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1518</MakeId>
+      <MakeName>Ace</MakeName>
+      <MfrId>7267</MfrId>
+      <MfrName>AMERICAN CARRIER EQUIPMENT TRAILER SALES, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1519</MakeId>
+      <MakeName>Cozad</MakeName>
+      <MfrId>7267</MfrId>
+      <MfrName>AMERICAN CARRIER EQUIPMENT TRAILER SALES, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1520</MakeId>
+      <MakeName>Reliance</MakeName>
+      <MfrId>7267</MfrId>
+      <MfrName>AMERICAN CARRIER EQUIPMENT TRAILER SALES, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1463</MakeId>
+      <MakeName>Boomer's Trikes</MakeName>
+      <MfrId>11218</MfrId>
+      <MfrName>BOOMER'S TRIKES</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1601</MakeId>
+      <MakeName>Gear Jammer</MakeName>
+      <MfrId>9990</MfrId>
+      <MfrName>GEAR JAMMER CUSTOMS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1633</MakeId>
+      <MakeName>American Classic Motors Inc.</MakeName>
+      <MfrId>9118</MfrId>
+      <MfrName>AMERICAN CLASSIC MOTORS INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1634</MakeId>
+      <MakeName>American Crafted Trailers, Inc.</MakeName>
+      <MfrId>11344</MfrId>
+      <MfrName>AMERICAN CRAFTED TRAILERS, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1638</MakeId>
+      <MakeName>American Eagle Trailers, Inc.</MakeName>
+      <MfrId>13370</MfrId>
+      <MfrName>AMERICAN EAGLE TRAILERS, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1639</MakeId>
+      <MakeName>American Electric Vehicle Company, LLC</MakeName>
+      <MfrId>10729</MfrId>
+      <MfrName>AMERICAN ELECTRIC VEHICLE COMPANY, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1642</MakeId>
+      <MakeName>Oak Creek Homes</MakeName>
+      <MfrId>10482</MfrId>
+      <MfrName>AMERICAN HOMESTAR OF LANCASTER dba OAK CREEK HOMES</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1644</MakeId>
+      <MakeName>American Hotrod Manufacturing, LLC</MakeName>
+      <MfrId>11585</MfrId>
+      <MfrName>AMERICAN HOTROD MANUFACTURING, LLC dba AMERICAN</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1649</MakeId>
+      <MakeName>American IronHorse Motorcycles</MakeName>
+      <MfrId>4475</MfrId>
+      <MfrName>AMERICAN IRONHORSE MOTORCYCLE COMPANY, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1672</MakeId>
+      <MakeName>Hot Summer Industries</MakeName>
+      <MfrId>1712</MfrId>
+      <MfrName>HOT SUMMER INDUSTRIES</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1820</MakeId>
+      <MakeName>COMMERCIAL TRAILER</MakeName>
+      <MfrId>6557</MfrId>
+      <MfrName>COMMERCIAL TRAILER, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1976</MakeId>
+      <MakeName>American Kulture Rod and Cycle Shoppe</MakeName>
+      <MfrId>12026</MfrId>
+      <MfrName>AMERICAN KULTURE ROD AND CYCLE SHOPPE</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1978</MakeId>
+      <MakeName>American Kulture Cycles</MakeName>
+      <MfrId>12025</MfrId>
+      <MfrName>AMERICAN KULTURE ROD AND CYCLE SHOPPE DBA AMERICAN</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1979</MakeId>
+      <MakeName>American LaFrance, LLC</MakeName>
+      <MfrId>11914</MfrId>
+      <MfrName>AMERICAN LAFRANCE, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1972</MakeId>
+      <MakeName>Justin Palmer Welding</MakeName>
+      <MfrId>11858</MfrId>
+      <MfrName>JUSTIN PALMER WELDING</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>4182</MakeId>
+      <MakeName>Irbit Motorworks of America, Inc Hdqtrs for Irbitski Mototsicletny Zavod</MakeName>
+      <MfrId>12588</MfrId>
+      <MfrName>IRBIT MOTORWORKS OF AMERICA, INC. HDQTRS for</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>1987</MakeId>
+      <MakeName>Mobile Armoured Vehicle</MakeName>
+      <MfrId>11914</MfrId>
+      <MfrName>AMERICAN LAFRANCE, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2014</MakeId>
+      <MakeName>Linamar Consumer Products </MakeName>
+      <MfrId>9107</MfrId>
+      <MfrName>LINAMAR CONSUMER PRODUCTS INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2020</MakeId>
+      <MakeName>Karcher North America (KNA)</MakeName>
+      <MfrId>13415</MfrId>
+      <MfrName>KARCHER NORTH AMERICA (KNA)</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2067</MakeId>
+      <MakeName>Chimera Kustom Choppers</MakeName>
+      <MfrId>1520</MfrId>
+      <MfrName>CHIMERA CUSTOMS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2068</MakeId>
+      <MakeName>Lionhead Haulers</MakeName>
+      <MfrId>1520</MfrId>
+      <MfrName>CHIMERA CUSTOMS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2066</MakeId>
+      <MakeName>Chimera Kustom Carts</MakeName>
+      <MfrId>1520</MfrId>
+      <MfrName>CHIMERA CUSTOMS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>449</MakeId>
+      <MakeName>Mercedes-Benz</MakeName>
+      <MfrId>964</MfrId>
+      <MfrName>MERCEDES-BENZ USA, LLC (SPRINTER)</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>450</MakeId>
+      <MakeName>Freightliner</MakeName>
+      <MfrId>964</MfrId>
+      <MfrName>MERCEDES-BENZ USA, LLC (SPRINTER)</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2090</MakeId>
+      <MakeName>King American</MakeName>
+      <MfrId>7044</MfrId>
+      <MfrName>KING AMERICAN, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2177</MakeId>
+      <MakeName>Hammer Down Choppers LLC</MakeName>
+      <MfrId>6515</MfrId>
+      <MfrName>HAMMER DOWN CHOPPERS LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2178</MakeId>
+      <MakeName>Hammerhead Trailers</MakeName>
+      <MfrId>10469</MfrId>
+      <MfrName>HAMMERHEAD TRAILERS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2352</MakeId>
+      <MakeName>Meridian Motors Company</MakeName>
+      <MfrId>11921</MfrId>
+      <MfrName>MERIDIAN MOTORS COMPANY, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2353</MakeId>
+      <MakeName>Merritt Equipment Co.</MakeName>
+      <MfrId>8092</MfrId>
+      <MfrName>MERRITT TRAILERS INC. </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2361</MakeId>
+      <MakeName>Mid America Designs </MakeName>
+      <MfrId>12122</MfrId>
+      <MfrName>MID AMERICA DESIGNS LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2350</MakeId>
+      <MakeName>Merch Motorcycle Co.</MakeName>
+      <MfrId>7567</MfrId>
+      <MfrName>MERCH MOTORCYCLE CO., INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2354</MakeId>
+      <MakeName>Mertz Manufacturing</MakeName>
+      <MfrId>8901</MfrId>
+      <MfrName>MERTZ MANUFACTURING, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5065</MakeId>
+      <MakeName>Mertz, Inc.</MakeName>
+      <MfrId>8901</MfrId>
+      <MfrName>MERTZ MANUFACTURING, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2428</MakeId>
+      <MakeName>NORTH AMERICAN CARGO</MakeName>
+      <MfrId>9527</MfrId>
+      <MfrName>NORTH AMERICAN CARGO</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2429</MakeId>
+      <MakeName>NORTH AMERICAN INDUSTRIES, LTD</MakeName>
+      <MfrId>10679</MfrId>
+      <MfrName>NORTH AMERICAN INDUSTRIES, LTD</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2442</MakeId>
+      <MakeName>Mid-America Trailer MFG.</MakeName>
+      <MfrId>8923</MfrId>
+      <MfrName>MID-AMERICA TRAILER MFG., LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7363</MakeId>
+      <MakeName>Hansen Mfg. Company</MakeName>
+      <MfrId>8923</MfrId>
+      <MfrName>MID-AMERICA TRAILER MFG., LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>9451</MakeId>
+      <MakeName>Bobcat Trailer Company, Inc.</MakeName>
+      <MfrId>8923</MfrId>
+      <MfrName>MID-AMERICA TRAILER MFG., LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2449</MakeId>
+      <MakeName>NORTH AMERICAN TRAILER, S.A. DE C.V. DBA NATSA TRAILERS</MakeName>
+      <MfrId>7299</MfrId>
+      <MfrName>NORTH AMERICAN TRAILER, S.A. DE C.V. </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2459</MakeId>
+      <MakeName>North American Traveler LLC</MakeName>
+      <MfrId>10962</MfrId>
+      <MfrName>NORTH AMERICAN TRAVELER LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2515</MakeId>
+      <MakeName>MM Spirit, Inc. dba American Spirit</MakeName>
+      <MfrId>10024</MfrId>
+      <MfrName>MM SPIRIT, INC. DBA AMERICAN SPIRIT</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2500</MakeId>
+      <MakeName>Pace American</MakeName>
+      <MfrId>5732</MfrId>
+      <MfrName>PACE AMERICAN of  INDIANA  INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2500</MakeId>
+      <MakeName>Pace American</MakeName>
+      <MfrId>10517</MfrId>
+      <MfrName>PACE AMERICAN OF OREGON INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2500</MakeId>
+      <MakeName>Pace American</MakeName>
+      <MfrId>5731</MfrId>
+      <MfrName>PACE AMERICAN, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2564</MakeId>
+      <MakeName>Muz of North America </MakeName>
+      <MfrId>10594</MfrId>
+      <MfrName>MUZ OF NORTH AMERICA</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2602</MakeId>
+      <MakeName>Palmer </MakeName>
+      <MfrId>1486</MfrId>
+      <MfrName>PALMER INDUSTRIES, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2678</MakeId>
+      <MakeName>Piaggio and Vespa</MakeName>
+      <MfrId>9140</MfrId>
+      <MfrName>PIAGGIO GROUP AMERICAS </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2733</MakeId>
+      <MakeName>Hi-Tech E.V.S. Company</MakeName>
+      <MfrId>12632</MfrId>
+      <MfrName>HI-TECH EMERGENCY VEHICLE SERVICE INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2959</MakeId>
+      <MakeName>Multitek </MakeName>
+      <MfrId>7118</MfrId>
+      <MfrName>MULTITEK NORTH AMERICA, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>3165</MakeId>
+      <MakeName>Semeredy Imperial </MakeName>
+      <MfrId>6237</MfrId>
+      <MfrName>SEMEREDY IMPERIAL LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>3210</MakeId>
+      <MakeName>T &amp; M Mfg</MakeName>
+      <MfrId>7145</MfrId>
+      <MfrName>T &amp; M MFG. INC. (FORMERLY PRINCETON MACHINE)</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>3401</MakeId>
+      <MakeName>Think Passenger Car</MakeName>
+      <MfrId>7458</MfrId>
+      <MfrName>THINK NORTH AMERICA INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>3884</MakeId>
+      <MakeName>ZIMMERMAN TRAILER </MakeName>
+      <MfrId>7290</MfrId>
+      <MfrName>ZIMMERMAN TRAILER LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>3917</MakeId>
+      <MakeName>American Airport Support &amp; Rescue Systems</MakeName>
+      <MfrId>1972</MfrId>
+      <MfrName>AMERICAN AIRPORT SUPPORT &amp; FIRE RESCUE SYSTEMS INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>3919</MakeId>
+      <MakeName>American Custom Coach</MakeName>
+      <MfrId>13527</MfrId>
+      <MfrName>AMERICAN CUSTOM COACH</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>3920</MakeId>
+      <MakeName>American Hauler</MakeName>
+      <MfrId>7831</MfrId>
+      <MfrName>AMERICAN HAULER INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>3923</MakeId>
+      <MakeName>American Steel V-Twin</MakeName>
+      <MfrId>12530</MfrId>
+      <MfrName>AMERICAN STEEL V-TWIN</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>3924</MakeId>
+      <MakeName>American Trailers</MakeName>
+      <MfrId>1417</MfrId>
+      <MfrName>AMERICAN TRAILERS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>3925</MakeId>
+      <MakeName>American Welding Service</MakeName>
+      <MfrId>5186</MfrId>
+      <MfrName>AMERICAN WELDING SERVICE INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>3935</MakeId>
+      <MakeName>AmeriFab Industries</MakeName>
+      <MfrId>1577</MfrId>
+      <MfrName>AMERIFAB INDUSTRIES INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>4114</MakeId>
+      <MakeName>Emerson Trailers</MakeName>
+      <MfrId>3967</MfrId>
+      <MfrName>EMERSON TRAILERS, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>4199</MakeId>
+      <MakeName>Immer Enterprises</MakeName>
+      <MfrId>13135</MfrId>
+      <MfrName>IMMER ENTERPRISES</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>4446</MakeId>
+      <MakeName>Wilmer's Welding</MakeName>
+      <MfrId>9538</MfrId>
+      <MfrName>WILMER'S WELDING</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5426</MakeId>
+      <MakeName>WHITEGMC</MakeName>
+      <MfrId>1015</MfrId>
+      <MfrName>VOLVO GROUP NORTH AMERICA, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>485</MakeId>
+      <MakeName>Volvo</MakeName>
+      <MfrId>1015</MfrId>
+      <MfrName>VOLVO GROUP NORTH AMERICA, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>4485</MakeId>
+      <MakeName>Wuzheng North America</MakeName>
+      <MfrId>13435</MfrId>
+      <MfrName>WUZHENG NORTH AMERICA LTD</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>4512</MakeId>
+      <MakeName>Western Star</MakeName>
+      <MfrId>1024</MfrId>
+      <MfrName>DAIMLER TRUCKS NORTH AMERICA LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>450</MakeId>
+      <MakeName>Freightliner</MakeName>
+      <MfrId>1024</MfrId>
+      <MfrName>DAIMLER TRUCKS NORTH AMERICA LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>4653</MakeId>
+      <MakeName>North American Motorcycles</MakeName>
+      <MfrId>8573</MfrId>
+      <MfrName>NORTH AMERICAN MOTORCYCLE CO.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>4673</MakeId>
+      <MakeName>American Best Corporation</MakeName>
+      <MfrId>13786</MfrId>
+      <MfrName>AMERICAN BEST CORPORATION</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>597</MakeId>
+      <MakeName>Husqvarna</MakeName>
+      <MfrId>9754</MfrId>
+      <MfrName>HUSQVARNA MOTORCYCLES S.R.L (FORMERLY KNOWN AS BOXER S.R.L., VARESE, ITALY)</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>4782</MakeId>
+      <MakeName>American Wash Company</MakeName>
+      <MfrId>5183</MfrId>
+      <MfrName>AMERICAN WASH COMPANY</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>457</MakeId>
+      <MakeName>ACG</MakeName>
+      <MfrId>973</MfrId>
+      <MfrName>AMERICAN CUSTOM GOLF CARS, INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>443</MakeId>
+      <MakeName>Maserati</MakeName>
+      <MfrId>959</MfrId>
+      <MfrName>MASERATI NORTH AMERICA, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5045</MakeId>
+      <MakeName>Zimmerman Manufacturing Corp.</MakeName>
+      <MfrId>13393</MfrId>
+      <MfrName>ZIMMERMAN MANUFACTURING CORP.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>510</MakeId>
+      <MakeName>Kawasaki</MakeName>
+      <MfrId>1048</MfrId>
+      <MfrName>SUZUKI MOTOR OF AMERICA, INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5162</MakeId>
+      <MakeName>DayStar Motorcycles of America, Inc.</MakeName>
+      <MfrId>13308</MfrId>
+      <MfrName>DAYSTAR MOTORCYCLES OF AMERICA INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5237</MakeId>
+      <MakeName>Stanley Emergency Products, Inc.</MakeName>
+      <MfrId>8734</MfrId>
+      <MfrName>STANLEY EMERGENCY PRODUCTS INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>565</MakeId>
+      <MakeName>Triumph</MakeName>
+      <MfrId>1131</MfrId>
+      <MfrName>TRIUMPH MOTORCYCLES (AMERICA) LIMITED</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5107</MakeId>
+      <MakeName>SAAB-Scania</MakeName>
+      <MfrId>2832</MfrId>
+      <MfrName>SAAB-SCANIA OF AMERICAN INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5342</MakeId>
+      <MakeName>Merit Tank</MakeName>
+      <MfrId>8091</MfrId>
+      <MfrName>MERIT TANK &amp; BODY, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>507</MakeId>
+      <MakeName>NABI</MakeName>
+      <MfrId>1047</MfrId>
+      <MfrName>North American Bus Industries Inc., LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>481</MakeId>
+      <MakeName>Mitsubishi</MakeName>
+      <MfrId>1054</MfrId>
+      <MfrName>MITSUBISHI MOTORS NORTH AMERICA</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>603</MakeId>
+      <MakeName>Ferrari</MakeName>
+      <MfrId>1169</MfrId>
+      <MfrName>FERRARI NORTH AMERICA, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>449</MakeId>
+      <MakeName>Mercedes-Benz</MakeName>
+      <MfrId>15880</MfrId>
+      <MfrName>MERCEDES -BENZ TRUCK COMPANY INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5744</MakeId>
+      <MakeName>Iveco</MakeName>
+      <MfrId>16176</MfrId>
+      <MfrName>IVECO TRUCKS OF NORTH AMERICAN, INC </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5764</MakeId>
+      <MakeName>North American Mfg. </MakeName>
+      <MfrId>2813</MfrId>
+      <MfrName>NORTH AMERICAN MFG. CO. INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5804</MakeId>
+      <MakeName>Commercial Structures </MakeName>
+      <MfrId>16234</MfrId>
+      <MfrName>COMMERCIAL STRUCTURES, INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5831</MakeId>
+      <MakeName>Kar-Karriage</MakeName>
+      <MfrId>15237</MfrId>
+      <MfrName>MAMER'S </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5916</MakeId>
+      <MakeName>Summerset Homes</MakeName>
+      <MfrId>15347</MfrId>
+      <MfrName>SUMMERSET HOMES, INC </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5926</MakeId>
+      <MakeName>Zimmer</MakeName>
+      <MfrId>9170</MfrId>
+      <MfrName>ZIMMER CORPORATION</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5983</MakeId>
+      <MakeName>A &amp; H </MakeName>
+      <MfrId>15420</MfrId>
+      <MfrName>AMERICAN TRAILERS AND SADDLE CO</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5985</MakeId>
+      <MakeName>American Bos Corp</MakeName>
+      <MfrId>15424</MfrId>
+      <MfrName>AMERICAN BOS CORPORATION </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5986</MakeId>
+      <MakeName>Amfab</MakeName>
+      <MfrId>15425</MfrId>
+      <MfrName>AMERICAN FABRICATORS, INC </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5987</MakeId>
+      <MakeName>JAWA</MakeName>
+      <MfrId>15428</MfrId>
+      <MfrName>AMERICAN JAWA LTD </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6017</MakeId>
+      <MakeName>Dameron </MakeName>
+      <MfrId>15463</MfrId>
+      <MfrName>DAMERON MANUFACTURING CORPORATION </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6074</MakeId>
+      <MakeName>Hymer Manufacturing Inc</MakeName>
+      <MfrId>13043</MfrId>
+      <MfrName>HYMER MANUFACTURING INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6135</MakeId>
+      <MakeName>American Tote </MakeName>
+      <MfrId>2085</MfrId>
+      <MfrName>AMERICAN TOTE BOAT TRAILER CO., INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6194</MakeId>
+      <MakeName>American Skier</MakeName>
+      <MfrId>15429</MfrId>
+      <MfrName>AMERICAN SKIER BOAT CORPORATION </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6205</MakeId>
+      <MakeName>Steeds</MakeName>
+      <MfrId>2729</MfrId>
+      <MfrName>SURGICAL STEEDS AMERICAN MOTORCYCLE</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6228</MakeId>
+      <MakeName>Nabors Trailers of America</MakeName>
+      <MfrId>2917</MfrId>
+      <MfrName>NABORS TRAILERS OF AMERICA, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6248</MakeId>
+      <MakeName>Palmer Bodies</MakeName>
+      <MfrId>3134</MfrId>
+      <MfrName>PALMER MACHINE WORKS, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6406</MakeId>
+      <MakeName>E-TON </MakeName>
+      <MfrId>11270</MfrId>
+      <MfrName>E-TON AMERICA, LLC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6481</MakeId>
+      <MakeName>American Farrier Systems LLC</MakeName>
+      <MfrId>11743</MfrId>
+      <MfrName>AMERICAN FARRIER SYSTEMS, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2500</MakeId>
+      <MakeName>Pace American</MakeName>
+      <MfrId>1489</MfrId>
+      <MfrName>PACE AMERICAN OF GEORGIA INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2500</MakeId>
+      <MakeName>Pace American</MakeName>
+      <MfrId>1491</MfrId>
+      <MfrName>PACE AMERICAN OF UTAH INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2500</MakeId>
+      <MakeName>Pace American</MakeName>
+      <MfrId>1490</MfrId>
+      <MfrName>PACE AMERICAN OF TEXAS INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2500</MakeId>
+      <MakeName>Pace American</MakeName>
+      <MfrId>11630</MfrId>
+      <MfrName>OPTIMA INDUSTRIES LLC SUB OF PACE AMERICAN, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6610</MakeId>
+      <MakeName>AMERICAN TRAILER SYSTEMS</MakeName>
+      <MfrId>2092</MfrId>
+      <MfrName>AMERICAN TRAILER SYSTEMS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6680</MakeId>
+      <MakeName>AMERICAN DOZER INC.</MakeName>
+      <MfrId>4468</MfrId>
+      <MfrName>AMERICAN DOZER INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6684</MakeId>
+      <MakeName>AMERICAN QUANTUM CYCLES</MakeName>
+      <MfrId>4483</MfrId>
+      <MfrName>AMERICAN QUANTUM CYCLES</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6756</MakeId>
+      <MakeName>CAMERON AND SONS WELDING</MakeName>
+      <MfrId>5161</MfrId>
+      <MfrName>CAMERON AND SONS WELDING</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6757</MakeId>
+      <MakeName>AMERICAN WARRIOR MOTORCYCLES</MakeName>
+      <MfrId>5182</MfrId>
+      <MfrName>AMERICAN WARRIOR MOTORCYCLES</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6759</MakeId>
+      <MakeName>AMERITECH CORPORATION</MakeName>
+      <MfrId>5188</MfrId>
+      <MfrName>AMERITECH CORPORATION</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6802</MakeId>
+      <MakeName>FLYER</MakeName>
+      <MfrId>5607</MfrId>
+      <MfrName>CRUISE AMERICA</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6898</MakeId>
+      <MakeName>TITAN</MakeName>
+      <MfrId>8335</MfrId>
+      <MfrName>TITAN MOTORCYCLE COMPANY OF AMERICA</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6981</MakeId>
+      <MakeName>MID-AMERICA TRUCK EQUIPMENT, INC</MakeName>
+      <MfrId>16617</MfrId>
+      <MfrName>MID-AMERICA TRUCK EQUIPMENT, INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>6983</MakeId>
+      <MakeName>J &amp; T MERCHANDISE INC</MakeName>
+      <MfrId>16619</MfrId>
+      <MfrName>J &amp; T MERCHANDISE INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7032</MakeId>
+      <MakeName>AMERI-CAN ENGINEERING, INC.</MakeName>
+      <MfrId>1969</MfrId>
+      <MfrName>AMERI-CAN ENGINEERING, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7065</MakeId>
+      <MakeName>FARMERS &amp; CONTRACTORS SUPPLY CO.</MakeName>
+      <MfrId>16704</MfrId>
+      <MfrName>FARMERS &amp; CONTRACTORS SUPPLY CO. </MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7191</MakeId>
+      <MakeName>American pride</MakeName>
+      <MfrId>11901</MfrId>
+      <MfrName>GRAND PRIX TRAILER SALES LLC DBA AMERICAN PRIDE TRAILERS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7254</MakeId>
+      <MakeName>American Thunder Tryke</MakeName>
+      <MfrId>16894</MfrId>
+      <MfrName>American Thunder Tryke, Inc.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7259</MakeId>
+      <MakeName>Weimer Manufacturing</MakeName>
+      <MfrId>16901</MfrId>
+      <MfrName>Weimer Manufacturing Co., Inc.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7270</MakeId>
+      <MakeName>AMERICAN TRAILERS CO</MakeName>
+      <MfrId>16913</MfrId>
+      <MfrName>AMERICAN TRAILERS CO</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7289</MakeId>
+      <MakeName>AmeriQuip</MakeName>
+      <MfrId>16931</MfrId>
+      <MfrName>AmeriQuip</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7361</MakeId>
+      <MakeName>American Electronic Sign Co</MakeName>
+      <MfrId>17013</MfrId>
+      <MfrName>AMERICAN ELECTRONIC SIGN CO.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7414</MakeId>
+      <MakeName>A.P.C. Motor Company</MakeName>
+      <MfrId>4482</MfrId>
+      <MfrName>AMERICAN PERFORMANCE CYCLE MOTOR COMPANY</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7443</MakeId>
+      <MakeName>AmeriMax </MakeName>
+      <MfrId>5187</MfrId>
+      <MfrName>AMERIMAX METALWORKS</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7486</MakeId>
+      <MakeName>American Trailer Mfg. Co</MakeName>
+      <MfrId>2089</MfrId>
+      <MfrName>AMERICAN TRAILER MFG. CO.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7598</MakeId>
+      <MakeName>All American Big Twin</MakeName>
+      <MfrId>17159</MfrId>
+      <MfrName>ALL AMERICAN BIG TWIN</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7674</MakeId>
+      <MakeName>American Welding &amp; Machine Co</MakeName>
+      <MfrId>5185</MfrId>
+      <MfrName>AMERICAN WELDING &amp; MACHINE</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7679</MakeId>
+      <MakeName>Ameri-Camp</MakeName>
+      <MfrId>1970</MfrId>
+      <MfrName>AMERI-CAMP</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7699</MakeId>
+      <MakeName>P &amp; T Palmer, Inc</MakeName>
+      <MfrId>5763</MfrId>
+      <MfrName>P &amp; T PALMER INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7703</MakeId>
+      <MakeName>Vento</MakeName>
+      <MfrId>10859</MfrId>
+      <MfrName>VENTO NORTH AMERICA, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7828</MakeId>
+      <MakeName>Wildlife</MakeName>
+      <MfrId>6042</MfrId>
+      <MfrName>MERITT MANAGEMENT COMPANY, LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7878</MakeId>
+      <MakeName>American Trailer Manufacturing Company</MakeName>
+      <MfrId>2087</MfrId>
+      <MfrName>AMERICAN TRAILER MANUFACTURING CO., Inc.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7891</MakeId>
+      <MakeName>Somerset Axle Company, LLC </MakeName>
+      <MfrId>5791</MfrId>
+      <MfrName>SOMERSET AXLE COMPANY LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8012</MakeId>
+      <MakeName>American Eagle Trailers Inc.</MakeName>
+      <MfrId>4469</MfrId>
+      <MfrName>AMERICAN EAGLE TRAILERS INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8070</MakeId>
+      <MakeName>Transformer Trailers, Inc </MakeName>
+      <MfrId>5792</MfrId>
+      <MfrName>TRANSFORMER TRAILERS, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8131</MakeId>
+      <MakeName>American Homestar Corporation</MakeName>
+      <MfrId>4471</MfrId>
+      <MfrName>AMERICAN HOMESTAR CORPORATION</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8290</MakeId>
+      <MakeName>Kromer Co LLC</MakeName>
+      <MfrId>3404</MfrId>
+      <MfrName>KROMER CO</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8306</MakeId>
+      <MakeName>Commercial Manufacturing &amp; Industrial, Co.</MakeName>
+      <MfrId>13139</MfrId>
+      <MfrName>COMMERCIAL MANUFACTURING &amp; INDUSTRIAL</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>7868</MakeId>
+      <MakeName>DI BLASI OF AMERICA Inc.</MakeName>
+      <MfrId>8897</MfrId>
+      <MfrName>DI BLASI OF NORTH AMERICA</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8434</MakeId>
+      <MakeName>Trailer Corporation of America, Inc.</MakeName>
+      <MfrId>5977</MfrId>
+      <MfrName>TRAILER CORPORATION OF AMERICA, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8498</MakeId>
+      <MakeName>American Hawg Choppers Inc</MakeName>
+      <MfrId>11323</MfrId>
+      <MfrName>AMERICAN HAWG CHOPPERS, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8558</MakeId>
+      <MakeName>R&amp;D Trailer Service dba Merlot Tarpaulin &amp; Sidekit Mfg. Co. Inc.</MakeName>
+      <MfrId>10909</MfrId>
+      <MfrName>R&amp;D TRAILER SERVICE DBA MERLOT TARPAULIN &amp; SIDEKIT MFG. Co., INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>2649</MakeId>
+      <MakeName>Patriot Motorcycles DBA</MakeName>
+      <MfrId>2121</MfrId>
+      <MfrName>ATK AMERICA, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5820</MakeId>
+      <MakeName>ATK</MakeName>
+      <MfrId>2121</MfrId>
+      <MfrName>ATK AMERICA, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8660</MakeId>
+      <MakeName>Cross Lander of North America Inc.</MakeName>
+      <MfrId>12734</MfrId>
+      <MfrName>CROSS LANDER OF NORTH AMERICA, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5491</MakeId>
+      <MakeName>Mongoose</MakeName>
+      <MfrId>7999</MfrId>
+      <MfrName>SEWER EQUIPMENT CO. OF AMERICA</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5492</MakeId>
+      <MakeName>RamVac</MakeName>
+      <MfrId>7999</MfrId>
+      <MfrName>SEWER EQUIPMENT CO. OF AMERICA</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5493</MakeId>
+      <MakeName>Sewer Equipment Co. of America </MakeName>
+      <MfrId>7999</MfrId>
+      <MfrName>SEWER EQUIPMENT CO. OF AMERICA</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8819</MakeId>
+      <MakeName>Delaware American Motors LLC</MakeName>
+      <MfrId>4705</MfrId>
+      <MfrName>DELAWARE AMERICAN MOTORS LLC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8853</MakeId>
+      <MakeName>American Truck Company</MakeName>
+      <MfrId>17670</MfrId>
+      <MfrName>American Truck Company</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>4136</MakeId>
+      <MakeName>Bloomer Trailer Manufacturing</MakeName>
+      <MfrId>13045</MfrId>
+      <MfrName>BLOOMER TRAILER MFG., INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8885</MakeId>
+      <MakeName>Trailers by JEL</MakeName>
+      <MfrId>17707</MfrId>
+      <MfrName>American Hitch &amp; Mfg Company</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8959</MakeId>
+      <MakeName>Bivouac Commercial Vehicles</MakeName>
+      <MfrId>4592</MfrId>
+      <MfrName>BIVOUAC COMMERCIAL VEHICLES</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>8969</MakeId>
+      <MakeName>American Trailer Company</MakeName>
+      <MfrId>17771</MfrId>
+      <MfrName>American Trailer Company</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>9092</MakeId>
+      <MakeName>Wire Wagon</MakeName>
+      <MfrId>11043</MfrId>
+      <MfrName>WIRE WAGON NORTH AMERICA INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>9122</MakeId>
+      <MakeName>American Travel Systems, Inc.</MakeName>
+      <MfrId>2094</MfrId>
+      <MfrName>AMERICAN TRAVEL SYSTEMS INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>9220</MakeId>
+      <MakeName>Roamer Corporation</MakeName>
+      <MfrId>10580</MfrId>
+      <MfrName>ROAMER CORPORATION</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>9347</MakeId>
+      <MakeName>Emerson Electric Co.</MakeName>
+      <MfrId>18103</MfrId>
+      <MfrName>Emerson Electric Co</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>9508</MakeId>
+      <MakeName>American Road Trailers</MakeName>
+      <MfrId>18251</MfrId>
+      <MfrName>American Road Trailers</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>9529</MakeId>
+      <MakeName>North American Transit, Inc.</MakeName>
+      <MfrId>2814</MfrId>
+      <MfrName>NORTH AMERICAN TRANSIT INC</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>9532</MakeId>
+      <MakeName>Sway-Tamer Mfg.</MakeName>
+      <MfrId>18281</MfrId>
+      <MfrName>Sway-Tamer Mfg.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>9539</MakeId>
+      <MakeName>Commercial Vehicles CV</MakeName>
+      <MfrId>13143</MfrId>
+      <MfrName>COMMERCIAL VEHICLES, INC.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>9621</MakeId>
+      <MakeName>American Wood Splitters, Inc.</MakeName>
+      <MfrId>18369</MfrId>
+      <MfrName>American Wood Splitters, Inc.</MfrName>
+    </MakesForMfrYear>
+    <MakesForMfrYear>
+      <MakeId>5553</MakeId>
+      <MakeName>YUGO</MakeName>
+      <MfrId>15416</MfrId>
+      <MfrName>SOUR ZAVODI CRVENA ZASTAVA dba Yugo America, Inc.</MfrName>
+    </MakesForMfrYear>
+  </Results>
+</Response>
