@@ -1,9 +1,0 @@
-C:\GitHub\proj-carmart\NHTSADataReader\bin\Debug\netstandard2.0\NHTSADataReader.deps.json
-C:\GitHub\proj-carmart\NHTSADataReader\bin\Debug\netstandard2.0\NHTSADataReader.dll
-C:\GitHub\proj-carmart\NHTSADataReader\bin\Debug\netstandard2.0\NHTSADataReader.pdb
-C:\GitHub\proj-carmart\NHTSADataReader\obj\Debug\netstandard2.0\NHTSADataReader.csprojAssemblyReference.cache
-C:\GitHub\proj-carmart\NHTSADataReader\obj\Debug\netstandard2.0\NHTSADataReader.AssemblyInfoInputs.cache
-C:\GitHub\proj-carmart\NHTSADataReader\obj\Debug\netstandard2.0\NHTSADataReader.AssemblyInfo.cs
-C:\GitHub\proj-carmart\NHTSADataReader\obj\Debug\netstandard2.0\NHTSADataReader.csproj.CoreCompileInputs.cache
-C:\GitHub\proj-carmart\NHTSADataReader\obj\Debug\netstandard2.0\NHTSADataReader.dll
-C:\GitHub\proj-carmart\NHTSADataReader\obj\Debug\netstandard2.0\NHTSADataReader.pdb
