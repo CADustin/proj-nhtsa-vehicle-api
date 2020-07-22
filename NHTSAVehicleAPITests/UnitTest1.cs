@@ -22,10 +22,10 @@ namespace NHTSAVehicleAPITest
         /// Test a deserialization and then serialization to be sure we create the same file that the NHTSA creates
         /// </summary>
         [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
-        [DeploymentItem(@"Data\GetAllMakes.xml")]
+        [DeploymentItem(@"Data/GetAllMakes.xml", "Data")]
         public void TestDeserializeThenSerializeRealData_GetAllMakes()
         {
-            const string RealDataFile = @"Data\GetAllMakes.xml";
+            const string RealDataFile = @"Data/GetAllMakes.xml";
 
             var deserializedResults = SerializeConfig<NHTSAVehicleAPI.Schema.GetAllVehicleMakes>.DeSerialize(RealDataFile);
             Assert.AreEqual(8716, deserializedResults.AllVehicleMakes.Count);
@@ -44,10 +44,10 @@ namespace NHTSAVehicleAPITest
         /// Test a deserialization and then serialization to be sure we create the same file that the NHTSA creates
         /// </summary>
         [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
-        [DeploymentItem(@"Data\GetManufacturerDetails_Honda.xml")]
+        [DeploymentItem(@"Data/GetManufacturerDetails_Honda.xml", "Data")]
         public void TestDeserializeThenSerializeRealData_GetManufacturerDetails_Honda()
         {
-            const string RealDataFile = @"Data\GetManufacturerDetails_Honda.xml";
+            const string RealDataFile = @"Data/GetManufacturerDetails_Honda.xml";
 
             var deserializedResults = SerializeConfig<NHTSAVehicleAPI.Schema.GetManufacturerDetails>.DeSerialize(RealDataFile);
             Assert.AreEqual(13, deserializedResults.ManufacturerDetails.Count);
@@ -63,10 +63,10 @@ namespace NHTSAVehicleAPITest
         /// Test a deserialization and then serialization to be sure we create the same file that the NHTSA creates
         /// </summary>
         [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
-        [DeploymentItem(@"Data\GetModelsForMake_Honda.xml")]
+        [DeploymentItem(@"Data/GetModelsForMake_Honda.xml", "Data")]
         public void TestDeserializeThenSerializeRealData_GetModelesForMake_Honda()
         {
-            const string RealDataFile = @"Data\GetModelsForMake_Honda.xml";
+            const string RealDataFile = @"Data/GetModelsForMake_Honda.xml";
 
             var deserializedResults = SerializeConfig<NHTSAVehicleAPI.Schema.GetModelsForMake>.DeSerialize(RealDataFile);
             Assert.AreEqual(810, deserializedResults.ModelsForMake.Count);
@@ -82,10 +82,10 @@ namespace NHTSAVehicleAPITest
         /// Test a deserialization and then serialization to be sure we create the same file that the NHTSA creates
         /// </summary>
         [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
-        [DeploymentItem(@"Data\GetModelsForMakeId_440.xml")]
+        [DeploymentItem(@"Data/GetModelsForMakeId_440.xml", "Data")]
         public void TestDeserializeThenSerializeRealData_GetModelsForMakeId_440()
         {
-            const string RealDataFile = @"Data\GetModelsForMakeId_440.xml";
+            const string RealDataFile = @"Data/GetModelsForMakeId_440.xml";
 
             var deserializedResults = SerializeConfig<NHTSAVehicleAPI.Schema.GetModelsForMake>.DeSerialize(RealDataFile);
             Assert.AreEqual(13, deserializedResults.ModelsForMake.Count);
@@ -101,10 +101,10 @@ namespace NHTSAVehicleAPITest
         /// Test a deserialization and then serialization to be sure we create the same file that the NHTSA creates
         /// </summary>
         [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
-        [DeploymentItem(@"Data\GetModelsForMakeIdYear_474_2015.xml", "Data")]
+        [DeploymentItem(@"Data/GetModelsForMakeIdYear_474_2015.xml", "Data")]
         public void TestDeserializeThenSerializeRealData_GetModelsForMakeIdYear_474_2015()
         {
-            const string RealDataFile = @"Data\GetModelsForMakeIdYear_474_2015.xml";
+            const string RealDataFile = @"Data/GetModelsForMakeIdYear_474_2015.xml";
 
             var deserializedResults = SerializeConfig<NHTSAVehicleAPI.Schema.GetMakeModels>.DeSerialize(RealDataFile);
             Assert.AreEqual(169, deserializedResults.MakeModels.Count);
@@ -120,10 +120,10 @@ namespace NHTSAVehicleAPITest
         /// Test a deserialization and then serialization to be sure we create the same file that the NHTSA creates
         /// </summary>
         [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
-        [DeploymentItem(@"Data\GetModelsForMakeYear_Honda_2015.xml")]
+        [DeploymentItem(@"Data/GetModelsForMakeYear_Honda_2015.xml", "Data")]
         public void TestDeserializeThenSerializeRealData_GetModelsForMakeYear_Honda_2015()
         {
-            const string RealDataFile = @"Data\GetModelsForMakeYear_Honda_2015.xml";
+            const string RealDataFile = @"Data/GetModelsForMakeYear_Honda_2015.xml";
 
             var deserializedResults = SerializeConfig<NHTSAVehicleAPI.Schema.GetMakeModels>.DeSerialize(RealDataFile);
             Assert.AreEqual(169, deserializedResults.MakeModels.Count);
@@ -150,7 +150,7 @@ namespace NHTSAVehicleAPITest
         /// <summary>
         /// Test <see cref="ReadAPI.GetModels(string, int)"/> by passing in an empty manufacturer
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live), ExpectedException(typeof(ArgumentException))]
+        [TestMethod, TestCategory(TestGroups.Live))]
         public void TestGetModels_EmptyManufacturer_2013()
         {
             bool caughtException = false;
