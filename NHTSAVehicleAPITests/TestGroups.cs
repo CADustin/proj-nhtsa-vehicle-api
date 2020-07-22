@@ -12,7 +12,7 @@ namespace NHTSAVehicleAPITest
         /// <summary>
         /// Validation Tests
         /// </summary>
-        public const string Validate = "~Validate";
+        public const string Validate = "Validate";
 
         /// <summary>
         /// Serialization Tests
