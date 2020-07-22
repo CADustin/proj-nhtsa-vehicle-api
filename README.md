@@ -1,3 +1,4 @@
+![.NET Core](https://github.com/CADustin/proj-nhtsa-vehicle-api/workflows/.NET%20Core/badge.svg)
 # NHTSA Vehicle API Reader (proj-nhtsa-vehicle-api)
 The intent of this project is to allow an easy and clean way to access (and cache) data from the National [Highway Traffic Safety Administration's (NHTSA) Vehicle API](https://vpic.nhtsa.dot.gov/api/).
 
