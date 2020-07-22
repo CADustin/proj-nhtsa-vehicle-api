@@ -150,9 +150,10 @@ namespace NHTSAVehicleAPITest
         /// <summary>
         /// Test <see cref="ReadAPI.GetModels(string, int)"/> by passing in an empty manufacturer
         /// </summary>
-        [TestMethod,TestCategory(TestGroups.Live), ExpectedException(typeof(ArgumentException))]
+        [TestMethod, TestCategory(TestGroups.Live), ExpectedException(typeof(ArgumentException))]
         public void TestGetModels_EmptyManufacturer_2013()
         {
+            bool caughtException = false;
             const string ExpectedExceptionMessage = "The parameter for the make cannot be an empty string.\r\nParameter name: make";
             try
             {
@@ -160,10 +161,12 @@ namespace NHTSAVehicleAPITest
             }
             catch (ArgumentException ex)
             {
+                caughtException = true;
                 Assert.AreEqual(ExpectedExceptionMessage, ex.Message);
                 Assert.AreEqual("make", ex.ParamName);
-                throw ex;
             }
+
+            Assert.IsTrue(caughtException);
         }
 
         /// <summary>
@@ -217,9 +220,11 @@ namespace NHTSAVehicleAPITest
         /// <summary>
         /// Test <see cref="ReadAPI.GetModels(string, int)"/> by passing in an 1800 as the year
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live), ExpectedException(typeof(ArgumentException))]
+        [TestMethod, TestCategory(TestGroups.Live)]
         public void TestGetModels_Honda_InvalidYear1800()
         {
+            bool caughtException = false;
+
             string expectedExceptionMessage = "The parameter for the year must be between 1879 and " + DateTime.Now.AddYears(1).Year + ".\r\nParameter name: year";
             try
             {
@@ -227,18 +232,22 @@ namespace NHTSAVehicleAPITest
             }
             catch (ArgumentException ex)
             {
+                caughtException = true;
                 Assert.AreEqual(expectedExceptionMessage, ex.Message);
                 Assert.AreEqual("year", ex.ParamName);
-                throw ex;
             }
+
+            Assert.IsTrue(caughtException);
         }
 
         /// <summary>
         /// Test <see cref="ReadAPI.GetModels(string, int)"/> by passing in an 2199 as the year
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live), ExpectedException(typeof(ArgumentException))]
+        [TestMethod, TestCategory(TestGroups.Live)]
         public void TestGetModels_Honda_InvalidYear2199()
         {
+            bool caughtException = false;
+
             string expectedExceptionMessage = "The parameter for the year must be between 1879 and " + DateTime.Now.AddYears(1).Year + ".\r\nParameter name: year";
             try
             {
@@ -246,10 +255,12 @@ namespace NHTSAVehicleAPITest
             }
             catch (ArgumentException ex)
             {
+                caughtException = true;
                 Assert.AreEqual(expectedExceptionMessage, ex.Message);
                 Assert.AreEqual("year", ex.ParamName);
-                throw ex;
             }
+
+            Assert.IsTrue(caughtException);
         }
 
         /// <summary>
