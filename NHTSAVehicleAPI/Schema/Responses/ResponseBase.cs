@@ -4,9 +4,12 @@
 
 namespace NHTSAVehicleAPI.Schema
 {
+    using System.Runtime.Serialization;
+
     /// <summary>
     /// Response Base class
     /// </summary>
+    [DataContract]
     public class ResponseBase
     {
         /// <summary>

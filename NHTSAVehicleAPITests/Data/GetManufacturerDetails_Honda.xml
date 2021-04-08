@@ -1,253 +1,254 @@
+<?xml version="1.0"?>
 <Reponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Count>13</Count>
   <Message>Response returned successfully</Message>
   <Results>
     <ManufacturerDetails>
-      <Mfr_ID>987</Mfr_ID>
-      <Mfr_Name>HONDA MOTOR CO., LTD</Mfr_Name>
-      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Address>2-1-1 Minami-Aoyama, Minato-ku</Address>
       <City>Tokyo</City>
-      <StateProvince>Musashi</StateProvince>
-      <PostalCode>107-8556</PostalCode>
+      <Mfr_CommonName>Honda</Mfr_CommonName>
+      <ContactEmail>Unknown@unknown.com</ContactEmail>
       <Country>Japan</Country>
+      <EquipmentItems />
+      <Mfr_ID>987</Mfr_ID>
       <LastUpdated>2015-09-02T14:17:54.88</LastUpdated>
+      <ManufacturerTypes />
+      <Mfr_Name>HONDA MOTOR CO., LTD</Mfr_Name>
       <OtherManufacturerDetails>Truck is another product.</OtherManufacturerDetails>
+      <PostalCode>107-8556</PostalCode>
       <PrincipalFirstName>Koichi Kondo</PrincipalFirstName>
       <PrincipalPosition>CEO</PrincipalPosition>
-      <ContactEmail>Unknown@unknown.com</ContactEmail>
+      <StateProvince>Musashi</StateProvince>
       <SubmittedOn xsi:nil="true" />
-      <EquipmentItems />
       <VehicleTypes />
-      <ManufacturerTypes />
     </ManufacturerDetails>
     <ManufacturerDetails>
-      <Mfr_ID>988</Mfr_ID>
-      <Mfr_Name>HONDA OF AMERICA MFG., INC.</Mfr_Name>
-      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Address>1919 TORRANCE BLVD</Address>
       <City>Torrance</City>
-      <StateProvince>CA</StateProvince>
-      <PostalCode>90501-2746</PostalCode>
+      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Country>United States (USA)</Country>
-      <LastUpdated>1900-01-01T00:00:00</LastUpdated>
-      <OtherManufacturerDetails>Truck is another product</OtherManufacturerDetails>
-      <SubmittedOn xsi:nil="true" />
       <EquipmentItems />
-      <VehicleTypes />
+      <Mfr_ID>988</Mfr_ID>
+      <LastUpdated>1900-01-01T00:00:00</LastUpdated>
       <ManufacturerTypes />
+      <Mfr_Name>HONDA OF AMERICA MFG., INC.</Mfr_Name>
+      <OtherManufacturerDetails>Truck is another product</OtherManufacturerDetails>
+      <PostalCode>90501-2746</PostalCode>
+      <StateProvince>CA</StateProvince>
+      <SubmittedOn xsi:nil="true" />
+      <VehicleTypes />
     </ManufacturerDetails>
     <ManufacturerDetails>
-      <Mfr_ID>989</Mfr_ID>
-      <Mfr_Name>HONDA MFG., ALABAMA., LLC.</Mfr_Name>
-      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Address>1800 Honda Dr</Address>
       <City>Lincoln</City>
-      <StateProvince>AL</StateProvince>
-      <PostalCode>35096</PostalCode>
+      <Mfr_CommonName>Honda</Mfr_CommonName>
+      <ContactEmail>Unknown@unknown.com</ContactEmail>
       <Country>United States (USA)</Country>
+      <EquipmentItems />
+      <Mfr_ID>989</Mfr_ID>
       <LastUpdated>2015-09-02T14:13:10.88</LastUpdated>
+      <ManufacturerTypes />
+      <Mfr_Name>HONDA MFG., ALABAMA., LLC.</Mfr_Name>
       <OtherManufacturerDetails>Truck is another product.</OtherManufacturerDetails>
+      <PostalCode>35096</PostalCode>
       <PrincipalFirstName>Koichi Kondo</PrincipalFirstName>
       <PrincipalPosition>CEO</PrincipalPosition>
-      <ContactEmail>Unknown@unknown.com</ContactEmail>
+      <StateProvince>AL</StateProvince>
       <SubmittedOn xsi:nil="true" />
-      <EquipmentItems />
       <VehicleTypes />
-      <ManufacturerTypes />
     </ManufacturerDetails>
     <ManufacturerDetails>
-      <Mfr_ID>990</Mfr_ID>
-      <Mfr_Name>HONDA OF CANADA MFG., INC.</Mfr_Name>
-      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Address>4700 Tottenham Road</Address>
       <City>Alliston</City>
-      <StateProvince>Ontario</StateProvince>
-      <PostalCode> L9R 1A2</PostalCode>
+      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Country>Canada</Country>
-      <LastUpdated>1900-01-01T00:00:00</LastUpdated>
-      <OtherManufacturerDetails>Truck is another product.</OtherManufacturerDetails>
-      <SubmittedOn xsi:nil="true" />
       <EquipmentItems />
-      <VehicleTypes />
+      <Mfr_ID>990</Mfr_ID>
+      <LastUpdated>1900-01-01T00:00:00</LastUpdated>
       <ManufacturerTypes />
+      <Mfr_Name>HONDA OF CANADA MFG., INC.</Mfr_Name>
+      <OtherManufacturerDetails>Truck is another product.</OtherManufacturerDetails>
+      <PostalCode> L9R 1A2</PostalCode>
+      <StateProvince>Ontario</StateProvince>
+      <SubmittedOn xsi:nil="true" />
+      <VehicleTypes />
     </ManufacturerDetails>
     <ManufacturerDetails>
-      <Mfr_ID>991</Mfr_ID>
-      <Mfr_Name>HONDA OF THE U.K. MFG., LTD.</Mfr_Name>
-      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Address> North Building, Highworth Road</Address>
       <Address2> South Marston</Address2>
       <City>Swindon</City>
-      <StateProvince>Wiltshire </StateProvince>
-      <PostalCode>SN3 4TZ</PostalCode>
+      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Country>United Kingdom (UK)</Country>
-      <LastUpdated>1900-01-01T00:00:00</LastUpdated>
-      <SubmittedOn xsi:nil="true" />
       <EquipmentItems />
-      <VehicleTypes />
+      <Mfr_ID>991</Mfr_ID>
+      <LastUpdated>1900-01-01T00:00:00</LastUpdated>
       <ManufacturerTypes />
+      <Mfr_Name>HONDA OF THE U.K. MFG., LTD.</Mfr_Name>
+      <PostalCode>SN3 4TZ</PostalCode>
+      <StateProvince>Wiltshire </StateProvince>
+      <SubmittedOn xsi:nil="true" />
+      <VehicleTypes />
     </ManufacturerDetails>
     <ManufacturerDetails>
-      <Mfr_ID>992</Mfr_ID>
-      <Mfr_Name>HONDA DE MEXICO</Mfr_Name>
-      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Address>7250 Corredor Industria </Address>
       <City>El Salto</City>
-      <StateProvince>Jalisco</StateProvince>
-      <PostalCode>45680</PostalCode>
+      <Mfr_CommonName>Honda</Mfr_CommonName>
+      <ContactEmail>Unknown@unknown.com</ContactEmail>
       <Country>Mexico</Country>
+      <EquipmentItems />
+      <Mfr_ID>992</Mfr_ID>
       <LastUpdated>2015-09-02T14:12:02.583</LastUpdated>
+      <ManufacturerTypes />
+      <Mfr_Name>HONDA DE MEXICO</Mfr_Name>
+      <PostalCode>45680</PostalCode>
       <PrincipalFirstName>Koichi Kondo</PrincipalFirstName>
       <PrincipalPosition>CEO</PrincipalPosition>
-      <ContactEmail>Unknown@unknown.com</ContactEmail>
+      <StateProvince>Jalisco</StateProvince>
       <SubmittedOn xsi:nil="true" />
-      <EquipmentItems />
       <VehicleTypes />
-      <ManufacturerTypes />
     </ManufacturerDetails>
     <ManufacturerDetails>
-      <Mfr_ID>993</Mfr_ID>
-      <Mfr_Name>HONDA MFG., INDIANA., LLC.</Mfr_Name>
-      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Address>2755 North Michigan Avenue</Address>
       <City>Greensburg</City>
-      <StateProvince>IN</StateProvince>
-      <PostalCode>47240-9341</PostalCode>
+      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Country>United States (USA)</Country>
-      <LastUpdated>1900-01-01T00:00:00</LastUpdated>
-      <OtherManufacturerDetails>Civic Sedan, Civic Natural Gas, Civic Hybrid</OtherManufacturerDetails>
-      <SubmittedOn xsi:nil="true" />
       <EquipmentItems />
-      <VehicleTypes />
+      <Mfr_ID>993</Mfr_ID>
+      <LastUpdated>1900-01-01T00:00:00</LastUpdated>
       <ManufacturerTypes />
+      <Mfr_Name>HONDA MFG., INDIANA., LLC.</Mfr_Name>
+      <OtherManufacturerDetails>Civic Sedan, Civic Natural Gas, Civic Hybrid</OtherManufacturerDetails>
+      <PostalCode>47240-9341</PostalCode>
+      <StateProvince>IN</StateProvince>
+      <SubmittedOn xsi:nil="true" />
+      <VehicleTypes />
     </ManufacturerDetails>
     <ManufacturerDetails>
-      <Mfr_ID>1154</Mfr_ID>
-      <Mfr_Name>AMERICAN HONDA MOTOR CO., INC.</Mfr_Name>
-      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Address>1919 Torrance Blvd</Address>
       <City>Torrance</City>
-      <StateProvince>CA</StateProvince>
-      <PostalCode>90501</PostalCode>
-      <Country>United States (USA)</Country>
-      <LastUpdated>2015-09-02T14:21:34.557</LastUpdated>
-      <OtherManufacturerDetails>
-        Additional Contacts:  mary_christopherson@ahm.honda.com; Schuyler_Asari@ahm.honda.com; crickett_breuninger@ahm.honda.com
-        Motorcycle VIN Coordinator: Eric Barnes (Certification Engineer) eric_barnes@ahm.honda.com (Phone: 310-783-3864)
-      </OtherManufacturerDetails>
-      <PrincipalFirstName>Koichi Kondo</PrincipalFirstName>
-      <PrincipalPosition>CEO</PrincipalPosition>
-      <ContactPhone>(310)783-3417</ContactPhone>
+      <Mfr_CommonName>Honda</Mfr_CommonName>
       <ContactEmail>julie_ortloff@ahm.honda.com</ContactEmail>
-      <SubmittedName>Julie Ortloff</SubmittedName>
-      <SubmittedPosition>Certification &amp; Compliance Officer</SubmittedPosition>
-      <SubmittedOn>2015-09-02T00:00:00</SubmittedOn>
+      <ContactPhone>(310)783-3417</ContactPhone>
+      <Country>United States (USA)</Country>
       <EquipmentItems />
-      <VehicleTypes>
-        <VehicleType>
-          <Name>Motorcycle</Name>
-          <IsPrimary>false</IsPrimary>
-        </VehicleType>
-        <VehicleType>
-          <Name>Passenger Car</Name>
-          <IsPrimary>true</IsPrimary>
-        </VehicleType>
-      </VehicleTypes>
+      <Mfr_ID>1154</Mfr_ID>
+      <LastUpdated>2015-09-02T14:21:34.557</LastUpdated>
       <ManufacturerTypes>
         <ManufacturerType>
           <Name>Completed Vehicle Manufacturer</Name>
         </ManufacturerType>
       </ManufacturerTypes>
+      <Mfr_Name>AMERICAN HONDA MOTOR CO., INC.</Mfr_Name>
+      <OtherManufacturerDetails>
+        Additional Contacts:  mary_christopherson@ahm.honda.com; Schuyler_Asari@ahm.honda.com; crickett_breuninger@ahm.honda.com
+        Motorcycle VIN Coordinator: Eric Barnes (Certification Engineer) eric_barnes@ahm.honda.com (Phone: 310-783-3864)
+      </OtherManufacturerDetails>
+      <PostalCode>90501</PostalCode>
+      <PrincipalFirstName>Koichi Kondo</PrincipalFirstName>
+      <PrincipalPosition>CEO</PrincipalPosition>
+      <StateProvince>CA</StateProvince>
+      <SubmittedName>Julie Ortloff</SubmittedName>
+      <SubmittedOn>2015-09-02T00:00:00</SubmittedOn>
+      <SubmittedPosition>Certification &amp; Compliance Officer</SubmittedPosition>
+      <VehicleTypes>
+        <VehicleType>
+          <IsPrimary>false</IsPrimary>
+          <Name>Motorcycle</Name>
+        </VehicleType>
+        <VehicleType>
+          <IsPrimary>true</IsPrimary>
+          <Name>Passenger Car</Name>
+        </VehicleType>
+      </VehicleTypes>
     </ManufacturerDetails>
     <ManufacturerDetails>
-      <Mfr_ID>14337</Mfr_ID>
-      <Mfr_Name>THAI HONDA MANUFACTURING CO., LTD.</Mfr_Name>
       <Address>410 Ladkrabang Industrial Estate</Address>
       <Address2>Chalongkrung RoadLamplatue</Address2>
       <City>Ladkrabang</City>
-      <StateProvince>Bangkok</StateProvince>
-      <PostalCode>10520</PostalCode>
+      <ContactPhone>(310)783-3632</ContactPhone>
       <Country>Thailand</Country>
+      <EquipmentItems />
+      <Mfr_ID>14337</Mfr_ID>
       <LastUpdated>2016-06-30T10:37:14.65</LastUpdated>
+      <ManufacturerTypes />
+      <Mfr_Name>THAI HONDA MANUFACTURING CO., LTD.</Mfr_Name>
+      <PostalCode>10520</PostalCode>
       <PrincipalFirstName>Shunichi Eguchi</PrincipalFirstName>
       <PrincipalPosition>President</PrincipalPosition>
-      <ContactPhone>(310)783-3632</ContactPhone>
+      <StateProvince>Bangkok</StateProvince>
       <SubmittedName>JAY JOSEPH</SubmittedName>
-      <SubmittedPosition>SENIOR MANAGER</SubmittedPosition>
       <SubmittedOn>2010-12-17T00:00:00</SubmittedOn>
-      <EquipmentItems />
+      <SubmittedPosition>SENIOR MANAGER</SubmittedPosition>
       <VehicleTypes>
         <VehicleType>
-          <Name>Motorcycle</Name>
-          <IsPrimary>true</IsPrimary>
           <GVWRFrom>Class 1A: 3,000 lb or less (1,360 kg or less)</GVWRFrom>
           <GVWRTo>Class 1A: 3,000 lb or less (1,360 kg or less)</GVWRTo>
+          <IsPrimary>true</IsPrimary>
+          <Name>Motorcycle</Name>
         </VehicleType>
       </VehicleTypes>
-      <ManufacturerTypes />
     </ManufacturerDetails>
     <ManufacturerDetails>
-      <Mfr_ID>14691</Mfr_ID>
-      <Mfr_Name>HONDA VIETNAM CO., LTD.</Mfr_Name>
       <Address>Phuc Thang ward</Address>
       <City>Phuc Yen town</City>
-      <StateProvince>Vinh Phuc province</StateProvince>
       <Country>Vietnam</Country>
+      <EquipmentItems />
+      <Mfr_ID>14691</Mfr_ID>
       <LastUpdated>2016-03-01T07:45:35.247</LastUpdated>
+      <ManufacturerTypes />
+      <Mfr_Name>HONDA VIETNAM CO., LTD.</Mfr_Name>
       <PrincipalFirstName>Masayuki Igarashi</PrincipalFirstName>
       <PrincipalPosition>General Director</PrincipalPosition>
+      <StateProvince>Vinh Phuc province</StateProvince>
       <SubmittedOn xsi:nil="true" />
-      <EquipmentItems />
       <VehicleTypes />
-      <ManufacturerTypes />
     </ManufacturerDetails>
     <ManufacturerDetails>
-      <Mfr_ID>14782</Mfr_ID>
-      <Mfr_Name>MOTO HONDA DA AMAZONIA LTDA.</Mfr_Name>
       <Address>Rua Jurua, 160 - Dist.</Address>
       <Address2>Industrial Marechal Castelo Branco - C.P.324</Address2>
-      <StateProvince>Manaus-AM-CEP 69075120</StateProvince>
       <Country>Brazil</Country>
+      <EquipmentItems />
+      <Mfr_ID>14782</Mfr_ID>
       <LastUpdated>2016-03-10T11:39:08.787</LastUpdated>
+      <ManufacturerTypes />
+      <Mfr_Name>MOTO HONDA DA AMAZONIA LTDA.</Mfr_Name>
       <PrincipalFirstName>Issao Mizoguchi</PrincipalFirstName>
       <PrincipalPosition>President</PrincipalPosition>
+      <StateProvince>Manaus-AM-CEP 69075120</StateProvince>
       <SubmittedOn xsi:nil="true" />
-      <EquipmentItems />
       <VehicleTypes />
-      <ManufacturerTypes />
     </ManufacturerDetails>
     <ManufacturerDetails>
-      <Mfr_ID>14790</Mfr_ID>
-      <Mfr_Name>SUNDIRO HONDA MOTORCYCLE CO., LTD.</Mfr_Name>
-      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Address>No. 118 Jiasong Middle Road</Address>
       <City>Qingpu Shanghai</City>
-      <StateProvince>Huaxin</StateProvince>
-      <PostalCode>107-8556</PostalCode>
+      <Mfr_CommonName>Honda</Mfr_CommonName>
       <Country>China</Country>
+      <EquipmentItems />
+      <Mfr_ID>14790</Mfr_ID>
       <LastUpdated>2017-11-02T14:19:03.52</LastUpdated>
+      <ManufacturerTypes />
+      <Mfr_Name>SUNDIRO HONDA MOTORCYCLE CO., LTD.</Mfr_Name>
+      <PostalCode>107-8556</PostalCode>
       <PrincipalFirstName>Kobayashi Taro</PrincipalFirstName>
       <PrincipalPosition>President</PrincipalPosition>
+      <StateProvince>Huaxin</StateProvince>
       <SubmittedOn xsi:nil="true" />
-      <EquipmentItems />
       <VehicleTypes />
-      <ManufacturerTypes />
     </ManufacturerDetails>
     <ManufacturerDetails>
-      <Mfr_ID>15171</Mfr_ID>
-      <Mfr_Name>MONTESA HONDA SA</Mfr_Name>
-      <Mfr_CommonName>Montesa Honda</Mfr_CommonName>
       <Address>Carrer Del Mar Del Nord1-Poligono Indust. Can Roca La Torre Del Rector Santa</Address>
       <Address2>Perpetua De Mogoda </Address2>
       <City>Barcelona </City>
-      <PostalCode>08130</PostalCode>
+      <Mfr_CommonName>Montesa Honda</Mfr_CommonName>
       <Country>Spain</Country>
-      <LastUpdated>2017-11-02T14:20:28.663</LastUpdated>
-      <SubmittedOn xsi:nil="true" />
       <EquipmentItems />
-      <VehicleTypes />
+      <Mfr_ID>15171</Mfr_ID>
+      <LastUpdated>2017-11-02T14:20:28.663</LastUpdated>
       <ManufacturerTypes />
+      <Mfr_Name>MONTESA HONDA SA</Mfr_Name>
+      <PostalCode>08130</PostalCode>
+      <SubmittedOn xsi:nil="true" />
+      <VehicleTypes />
     </ManufacturerDetails>
   </Results>
 </Reponse>

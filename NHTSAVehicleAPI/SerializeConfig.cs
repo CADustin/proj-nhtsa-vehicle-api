@@ -5,6 +5,7 @@
 namespace NHTSAVehicleAPI
 {
     using System.IO;
+    using System.Runtime.Serialization;
     using System.Xml;
     using System.Xml.Serialization;
 
@@ -12,17 +13,37 @@ namespace NHTSAVehicleAPI
     /// Serialization helper class
     /// </summary>
     /// <typeparam name="T">Type of class to serialize</typeparam>
-    /// <remarks>
-    /// From <seealso cref="https://stackoverflow.com/questions/364253/how-to-deserialize-xml-document"/>
-    /// </remarks>
+    /// <remarks>From <seealso cref="https://stackoverflow.com/questions/364253/how-to-deserialize-xml-document"/></remarks>
     public static class SerializeConfig<T> where T : class
     {
+        public static T Deserialize(string path)
+        {
+            T type;
+            var serializer = new DataContractSerializer(typeof(T));
+            using (var stream = new MemoryStream())
+            {
+                using (var writer = new StreamWriter(stream))
+                {
+                    writer.Write(path);
+                    writer.Flush();
+                    stream.Position = 0;
+
+                    type = (T)serializer.ReadObject(stream);
+                }
+            }
+
+            return type;
+        }
+
         /// <summary>
-        /// Deserialize a class back into a class
+        /// Deserialize data from the NHTSA API into an object.
         /// </summary>
+        /// <remarks>
+        /// This deserializer is using the <seealso cref="XmlSerializer"/> to deserialize the API.
+        /// </remarks>
         /// <param name="path">Path to the input file</param>
         /// <returns>The deserialized class</returns>
-        public static T DeSerialize(string path)
+        public static T DeserializeUsingXmlSerializer(string path)
         {
             T type;
             var serializer = new XmlSerializer(typeof(T));
@@ -34,21 +55,14 @@ namespace NHTSAVehicleAPI
             return type;
         }
 
-        /// <summary>
-        /// Deserialize a class back into a class
-        /// </summary>
-        /// <param name="str">Serialized XML string</param>
-        /// <returns>The deserialized class</returns>
-        public static T DeSerializeFromString(string str)
+        public static void Serialize(string fileName, T type)
         {
-            T type;
-            var serializer = new XmlSerializer(typeof(T));
-            using (var reader = new StringReader(str))
+            DataContractSerializer serializer = new DataContractSerializer(typeof(T));
+            var settings = new XmlWriterSettings { Indent = true };
+            using (var writer = XmlWriter.Create(fileName, settings))
             {
-                type = serializer.Deserialize(reader) as T;
+                serializer.WriteObject(writer, type);
             }
-
-            return type;
         }
 
         /// <summary>
@@ -56,7 +70,7 @@ namespace NHTSAVehicleAPI
         /// </summary>
         /// <param name="path">Path to the output file</param>
         /// <param name="type">The class to be serialized</param>
-        public static void Serialize(string path, T type)
+        public static void SerializeUsingXmlSerializer(string path, T type)
         {
             var file = new FileInfo(path);
             Directory.CreateDirectory(file.DirectoryName);
@@ -64,21 +78,6 @@ namespace NHTSAVehicleAPI
             using (var writer = new FileStream(file.FullName, FileMode.Create))
             {
                 serializer.Serialize(writer, type);
-            }
-        }
-
-        /// <summary>
-        /// Serialize a class tp xml
-        /// </summary>
-        /// <param name="type">The class to be serialized</param>
-        /// <returns>String containing the serialized XML</returns>
-        public static string Serialize(T type)
-        {
-            var serializer = new XmlSerializer(type.GetType());
-            using (var writer = new StringWriter())
-            {
-                serializer.Serialize(writer, type);
-                return serializer.ToString();
             }
         }
     }

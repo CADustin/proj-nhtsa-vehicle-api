@@ -5,11 +5,13 @@
 namespace NHTSAVehicleAPI.Schema
 {
     using System.Data;
+    using System.Runtime.Serialization;
     using System.Xml.Serialization;
 
     /// <summary>
     /// Vehicle Model
     /// </summary>
+    [DataContract]
     public class Model : Make
     {
         /// <summary>
@@ -22,7 +24,9 @@ namespace NHTSAVehicleAPI.Schema
         /// <summary>
         /// Initializes a new instance of the <see cref="Model"/> class.
         /// </summary>
-        /// <param name="dataRow"><see cref="DataRow"/> which contains data to be stored inside of <see cref="Model"/></param>
+        /// <param name="dataRow">
+        /// <see cref="DataRow"/> which contains data to be stored inside of <see cref="Model"/>
+        /// </param>
         public Model(DataRow dataRow) : base(dataRow)
         {
             int idIndex = dataRow.Table.Columns.IndexOf("ModelID");
@@ -49,16 +53,18 @@ namespace NHTSAVehicleAPI.Schema
         /// <summary>
         /// Gets or sets the NHTSA ID for the Model
         /// </summary>
+        [DataMember]
         [XmlElement("Model_ID")]
         public int ModelID { get; set; }
 
         /// <summary>
         /// Gets or sets the Model Name
         /// </summary>
+        [DataMember]
         [XmlElement("Model_Name")]
         public string ModelName { get; set; }
 
-        /// <inheritdoc />
+        /// <inheritdoc/>
         public override string ToString()
         {
             return ModelName;

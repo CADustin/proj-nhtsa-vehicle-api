@@ -5,11 +5,13 @@
 namespace NHTSAVehicleAPI.Schema
 {
     using System.Data;
+    using System.Runtime.Serialization;
     using System.Xml.Serialization;
 
     /// <summary>
     /// Vehicle Make
     /// </summary>
+    [DataContract]
     public class Make
     {
         /// <summary>
@@ -22,7 +24,9 @@ namespace NHTSAVehicleAPI.Schema
         /// <summary>
         /// Initializes a new instance of the <see cref="Make"/> class.
         /// </summary>
-        /// <param name="dataRow"><see cref="DataRow"/> which contains data to be stored inside of <see cref="Make"/></param>
+        /// <param name="dataRow">
+        /// <see cref="DataRow"/> which contains data to be stored inside of <see cref="Make"/>
+        /// </param>
         public Make(DataRow dataRow)
         {
             int idIndex = dataRow.Table.Columns.IndexOf("MakeID");
@@ -49,16 +53,18 @@ namespace NHTSAVehicleAPI.Schema
         /// <summary>
         /// Gets or sets the NHTSA ID for the Make
         /// </summary>
+        [DataMember]
         [XmlElement("Make_ID")]
         public int MakeID { get; set; }
 
         /// <summary>
         /// Gets or sets the Name of the Make
         /// </summary>
+        [DataMember]
         [XmlElement("Make_Name")]
         public string MakeName { get; set; }
 
-        /// <inheritdoc />
+        /// <inheritdoc/>
         public override string ToString()
         {
             return MakeName;
