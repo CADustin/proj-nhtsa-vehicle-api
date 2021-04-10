@@ -19,6 +19,29 @@ namespace NHTSAVehicleAPITest
     public class UnitTest1
     {
         /// <summary>
+        /// Test deserializing a data file (using the XML Serializer) and then test
+        /// serializing/deserializing using the data contract serializer.
+        /// </summary>
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
+        [TestCategory(TestGroups.Serialization)]
+        [DeploymentItem(@"Data/GetModelsForMake_Honda.xml", "Data")]
+        public void TestDataContractSerializerMethods()
+        {
+            const string RealDataFile = @"Data/GetModelsForMake_Honda.xml";
+
+            var deserializedResults = SerializeConfig<GetModelsForMake>.DeserializeUsingXmlSerializer(RealDataFile);
+            Assert.AreEqual(810, deserializedResults.ModelsForMake.Count);
+
+            // Reserialize the data, but to a temp file
+            string tempFile = System.IO.Path.GetTempFileName();
+            SerializeConfig<GetModelsForMake>.Serialize(tempFile, deserializedResults);
+
+            var dcsResults = SerializeConfig<GetModelsForMake>.Deserialize(tempFile);
+            Assert.AreEqual(810, dcsResults.ModelsForMake.Count);
+        }
+
+        /// <summary>
         /// Test a deserialization and then serialization to be sure we create the same file that
         /// the NHTSA creates.
         /// </summary>

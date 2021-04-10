@@ -25,15 +25,11 @@ namespace NHTSAVehicleAPI
         {
             T type;
             var serializer = new DataContractSerializer(typeof(T));
-            using (var stream = new MemoryStream())
+            using (var sr = new StreamReader(fileName))
             {
-                using (var writer = new StreamWriter(stream))
+                using (var xmlr = XmlReader.Create(sr))
                 {
-                    writer.Write(fileName);
-                    writer.Flush();
-                    stream.Position = 0;
-
-                    type = (T)serializer.ReadObject(stream);
+                    type = (T)serializer.ReadObject(xmlr);
                 }
             }
 

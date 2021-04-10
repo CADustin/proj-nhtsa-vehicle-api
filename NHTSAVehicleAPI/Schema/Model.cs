@@ -13,7 +13,7 @@ namespace NHTSAVehicleAPI.Schema
     /// Vehicle Model.
     /// </summary>
     [DataContract]
-    [DebuggerDisplay("{this.ModelNAme}")]
+    [DebuggerDisplay("{this.ModelName}")]
     public class Model : Make
     {
         /// <summary>
