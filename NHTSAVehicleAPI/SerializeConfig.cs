@@ -13,10 +13,14 @@ namespace NHTSAVehicleAPI
     /// Serialization helper class
     /// </summary>
     /// <typeparam name="T">Type of class to serialize</typeparam>
-    /// <remarks>From <seealso cref="https://stackoverflow.com/questions/364253/how-to-deserialize-xml-document"/></remarks>
     public static class SerializeConfig<T> where T : class
     {
-        public static T Deserialize(string path)
+        /// <summary>
+        /// Deserialize the type to XML using the <seealso cref="DataContractSerializer"/>.
+        /// </summary>
+        /// <param name="fileName">The file to read the XML from.</param>
+        /// <returns>The deserialized class</returns>
+        public static T Deserialize(string fileName)
         {
             T type;
             var serializer = new DataContractSerializer(typeof(T));
@@ -24,7 +28,7 @@ namespace NHTSAVehicleAPI
             {
                 using (var writer = new StreamWriter(stream))
                 {
-                    writer.Write(path);
+                    writer.Write(fileName);
                     writer.Flush();
                     stream.Position = 0;
 
@@ -41,7 +45,7 @@ namespace NHTSAVehicleAPI
         /// <remarks>
         /// This deserializer is using the <seealso cref="XmlSerializer"/> to deserialize the API.
         /// </remarks>
-        /// <param name="path">Path to the input file</param>
+        /// <param name="fileName">The file to read the XML from.</param>
         /// <returns>The deserialized class</returns>
         public static T DeserializeUsingXmlSerializer(string path)
         {
@@ -55,6 +59,11 @@ namespace NHTSAVehicleAPI
             return type;
         }
 
+        /// <summary>
+        /// Serialize the type to XML using the <seealso cref="DataContractSerializer"/>.
+        /// </summary>
+        /// <param name="fileName">The file where we will store the serialized xml.</param>
+        /// <param name="type">The class to be serialized.</param>
         public static void Serialize(string fileName, T type)
         {
             DataContractSerializer serializer = new DataContractSerializer(typeof(T));
@@ -66,16 +75,15 @@ namespace NHTSAVehicleAPI
         }
 
         /// <summary>
-        /// Serialize a class to an xml file
+        /// Serialize a class to an xml file.
         /// </summary>
-        /// <param name="path">Path to the output file</param>
-        /// <param name="type">The class to be serialized</param>
-        public static void SerializeUsingXmlSerializer(string path, T type)
+        /// <param name="fileName">The file where we will store the serialized xml.</param>
+        /// <param name="type">The class to be serialized.</param>
+        public static void SerializeUsingXmlSerializer(string fileName, T type)
         {
-            var file = new FileInfo(path);
-            Directory.CreateDirectory(file.DirectoryName);
+            Directory.CreateDirectory(fileName);
             var serializer = new XmlSerializer(type.GetType());
-            using (var writer = new FileStream(file.FullName, FileMode.Create))
+            using (var writer = new FileStream(fileName, FileMode.Create))
             {
                 serializer.Serialize(writer, type);
             }
