@@ -10,16 +10,17 @@ namespace NHTSAVehicleAPI
     using System.Xml.Serialization;
 
     /// <summary>
-    /// Serialization helper class
+    /// Serialization helper class.
     /// </summary>
-    /// <typeparam name="T">Type of class to serialize</typeparam>
-    public static class SerializeConfig<T> where T : class
+    /// <typeparam name="T">Type of class to serialize.</typeparam>
+    public static class SerializeConfig<T>
+        where T : class
     {
         /// <summary>
         /// Deserialize the type to XML using the <seealso cref="DataContractSerializer"/>.
         /// </summary>
         /// <param name="fileName">The file to read the XML from.</param>
-        /// <returns>The deserialized class</returns>
+        /// <returns>The deserialized class.</returns>
         public static T Deserialize(string fileName)
         {
             T type;
@@ -46,12 +47,12 @@ namespace NHTSAVehicleAPI
         /// This deserializer is using the <seealso cref="XmlSerializer"/> to deserialize the API.
         /// </remarks>
         /// <param name="fileName">The file to read the XML from.</param>
-        /// <returns>The deserialized class</returns>
-        public static T DeserializeUsingXmlSerializer(string path)
+        /// <returns>The deserialized class.</returns>
+        public static T DeserializeUsingXmlSerializer(string fileName)
         {
             T type;
             var serializer = new XmlSerializer(typeof(T));
-            using (var reader = XmlReader.Create(path))
+            using (var reader = XmlReader.Create(fileName))
             {
                 type = serializer.Deserialize(reader) as T;
             }
@@ -81,7 +82,6 @@ namespace NHTSAVehicleAPI
         /// <param name="type">The class to be serialized.</param>
         public static void SerializeUsingXmlSerializer(string fileName, T type)
         {
-            Directory.CreateDirectory(fileName);
             var serializer = new XmlSerializer(type.GetType());
             using (var writer = new FileStream(fileName, FileMode.Create))
             {

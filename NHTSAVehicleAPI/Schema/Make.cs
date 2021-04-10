@@ -5,13 +5,15 @@
 namespace NHTSAVehicleAPI.Schema
 {
     using System.Data;
+    using System.Diagnostics;
     using System.Runtime.Serialization;
     using System.Xml.Serialization;
 
     /// <summary>
-    /// Vehicle Make
+    /// Vehicle Make.
     /// </summary>
     [DataContract]
+    [DebuggerDisplay("{this.MakeName}")]
     public class Make
     {
         /// <summary>
@@ -25,7 +27,7 @@ namespace NHTSAVehicleAPI.Schema
         /// Initializes a new instance of the <see cref="Make"/> class.
         /// </summary>
         /// <param name="dataRow">
-        /// <see cref="DataRow"/> which contains data to be stored inside of <see cref="Make"/>
+        /// <see cref="DataRow"/> which contains data to be stored inside of <see cref="Make"/>.
         /// </param>
         public Make(DataRow dataRow)
         {
@@ -33,7 +35,7 @@ namespace NHTSAVehicleAPI.Schema
             int tempMakeID = 0;
             if (idIndex >= 0)
             {
-                int.TryParse(dataRow.ItemArray[idIndex].ToString(), out tempMakeID);
+                _ = int.TryParse(dataRow.ItemArray[idIndex].ToString(), out tempMakeID);
             }
 
             // If the TryParse fails we will get 0, which is the default we want
@@ -51,23 +53,17 @@ namespace NHTSAVehicleAPI.Schema
         }
 
         /// <summary>
-        /// Gets or sets the NHTSA ID for the Make
+        /// Gets or sets the NHTSA ID for the Make.
         /// </summary>
         [DataMember]
         [XmlElement("Make_ID")]
         public int MakeID { get; set; }
 
         /// <summary>
-        /// Gets or sets the Name of the Make
+        /// Gets or sets the Name of the Make.
         /// </summary>
         [DataMember]
         [XmlElement("Make_Name")]
         public string MakeName { get; set; }
-
-        /// <inheritdoc/>
-        public override string ToString()
-        {
-            return MakeName;
-        }
     }
 }

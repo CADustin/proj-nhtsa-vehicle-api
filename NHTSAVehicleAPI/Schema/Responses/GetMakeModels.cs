@@ -9,17 +9,18 @@ namespace NHTSAVehicleAPI.Schema
     using System.Xml.Serialization;
 
     /// <summary>
-    /// The response class for the NHTSA ModelsForMakeIdYear function
+    /// The response class for the NHTSA ModelsForMakeIdYear function.
     /// </summary>
     [DataContract]
     [XmlRoot(ElementName = "Response")]
     public class GetMakeModels : ResponseBase
     {
         /// <summary>
-        /// Gets or sets a list of models
+        /// Gets or sets a list of models.
         /// </summary>
         [DataMember]
-        [XmlArray("Results"), XmlArrayItem("MakeModels")]
+        [XmlArray("Results")]
+        [XmlArrayItem("MakeModels")]
         public List<Model> MakeModels { get; set; }
     }
 }

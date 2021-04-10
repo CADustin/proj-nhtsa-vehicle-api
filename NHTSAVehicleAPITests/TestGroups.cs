@@ -5,23 +5,23 @@
 namespace NHTSAVehicleAPITest
 {
     /// <summary>
-    /// Test Groups to help organize tests into categories better
+    /// Test Groups to help organize tests into categories better.
     /// </summary>
     public static class TestGroups
     {
         /// <summary>
-        /// Validation Tests
+        /// Live Tests.
         /// </summary>
-        public const string Validate = "Validate";
+        public const string Live = "Live";
 
         /// <summary>
-        /// Serialization Tests
+        /// Serialization Tests.
         /// </summary>
         public const string Serialization = "Serialization";
 
         /// <summary>
-        /// Live Tests
+        /// Validation Tests.
         /// </summary>
-        public const string Live = "Live";
+        public const string Validate = "Validate";
     }
 }

@@ -7,13 +7,13 @@ namespace NHTSAVehicleAPI.Schema
     using System.Runtime.Serialization;
 
     /// <summary>
-    /// Vehicle Type class
+    /// Vehicle Type class.
     /// </summary>
     [DataContract]
     public class VehicleType
     {
         /// <summary>
-        /// Gets or sets the Gross vehicle weight rating (From)
+        /// Gets or sets the Gross vehicle weight rating (From).
         /// </summary>
         /// <remarks>
         /// It's not totally clear to me what this is for exactly -- but for now I want to be able
@@ -23,7 +23,7 @@ namespace NHTSAVehicleAPI.Schema
         public string GVWRFrom { get; set; }
 
         /// <summary>
-        /// Gets or sets the Gross vehicle weight rating (From)
+        /// Gets or sets the Gross vehicle weight rating (From).
         /// </summary>
         /// <remarks>
         /// It's not totally clear to me what this is for exactly -- but for now I want to be able
@@ -32,11 +32,15 @@ namespace NHTSAVehicleAPI.Schema
         [DataMember]
         public string GVWRTo { get; set; }
 
+        /// <summary>
+        /// Gets or sets a value indicating whether the Vehicle Type is primary or not.
+        /// </summary>
+        /// <remarks>TODO: Figure out what this is for, and update the documentation later.</remarks>
         [DataMember]
         public bool IsPrimary { get; set; }
 
         /// <summary>
-        /// Gets or sets the Name of the Vehicle Type
+        /// Gets or sets the Name of the Vehicle Type.
         /// </summary>
         [DataMember]
         public string Name { get; set; }

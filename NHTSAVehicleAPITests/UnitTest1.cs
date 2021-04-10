@@ -13,16 +13,18 @@ namespace NHTSAVehicleAPITest
     using NHTSAVehicleAPI.Schema;
 
     /// <summary>
-    /// Test class
+    /// Test class.
     /// </summary>
     [TestClass]
     public class UnitTest1
     {
         /// <summary>
         /// Test a deserialization and then serialization to be sure we create the same file that
-        /// the NHTSA creates
+        /// the NHTSA creates.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
+        [TestCategory(TestGroups.Serialization)]
         [DeploymentItem(@"Data/GetAllMakes.xml", "Data")]
         public void TestDeserializeThenSerializeRealData_GetAllMakes()
         {
@@ -43,9 +45,11 @@ namespace NHTSAVehicleAPITest
 
         /// <summary>
         /// Test a deserialization and then serialization to be sure we create the same file that
-        /// the NHTSA creates
+        /// the NHTSA creates.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
+        [TestCategory(TestGroups.Serialization)]
         [DeploymentItem(@"Data/GetManufacturerDetails_Honda.xml", "Data")]
         public void TestDeserializeThenSerializeRealData_GetManufacturerDetails_Honda()
         {
@@ -63,9 +67,11 @@ namespace NHTSAVehicleAPITest
 
         /// <summary>
         /// Test a deserialization and then serialization to be sure we create the same file that
-        /// the NHTSA creates
+        /// the NHTSA creates.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
+        [TestCategory(TestGroups.Serialization)]
         [DeploymentItem(@"Data/GetModelsForMake_Honda.xml", "Data")]
         public void TestDeserializeThenSerializeRealData_GetModelesForMake_Honda()
         {
@@ -83,9 +89,11 @@ namespace NHTSAVehicleAPITest
 
         /// <summary>
         /// Test a deserialization and then serialization to be sure we create the same file that
-        /// the NHTSA creates
+        /// the NHTSA creates.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
+        [TestCategory(TestGroups.Serialization)]
         [DeploymentItem(@"Data/GetModelsForMakeId_440.xml", "Data")]
         public void TestDeserializeThenSerializeRealData_GetModelsForMakeId_440()
         {
@@ -103,9 +111,11 @@ namespace NHTSAVehicleAPITest
 
         /// <summary>
         /// Test a deserialization and then serialization to be sure we create the same file that
-        /// the NHTSA creates
+        /// the NHTSA creates.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
+        [TestCategory(TestGroups.Serialization)]
         [DeploymentItem(@"Data/GetModelsForMakeIdYear_474_2015.xml", "Data")]
         public void TestDeserializeThenSerializeRealData_GetModelsForMakeIdYear_474_2015()
         {
@@ -123,9 +133,11 @@ namespace NHTSAVehicleAPITest
 
         /// <summary>
         /// Test a deserialization and then serialization to be sure we create the same file that
-        /// the NHTSA creates
+        /// the NHTSA creates.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
+        [TestCategory(TestGroups.Serialization)]
         [DeploymentItem(@"Data/GetModelsForMakeYear_Honda_2015.xml", "Data")]
         public void TestDeserializeThenSerializeRealData_GetModelsForMakeYear_Honda_2015()
         {
@@ -142,28 +154,30 @@ namespace NHTSAVehicleAPITest
         }
 
         /// <summary>
-        /// Test <see cref="ReadAPI.GetAllMakes"/> using the live <c>NHTSA</c> servers
+        /// Test <see cref="ReadAPI.GetAllMakes"/> using the live NHTSA servers.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live)]
+        [TestMethod]
+        [TestCategory(TestGroups.Live)]
         public void TestGetAllMakes()
         {
-            var response = new ReadAPI().GetAllMakes();
+            var response = ReadAPI.GetAllMakes();
             Assert.IsTrue(response.Count > 0);
             Assert.IsTrue(response.Message.Contains("successful"));
             Assert.AreEqual(response.Count, response.AllVehicleMakes.Count);
         }
 
         /// <summary>
-        /// Test <see cref="ReadAPI.GetModels(string, int)"/> by passing in an empty manufacturer
+        /// Test <see cref="ReadAPI.GetModels(string, int)"/> by passing in an empty manufacturer.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live)]
+        [TestMethod]
+        [TestCategory(TestGroups.Live)]
         public void TestGetModels_EmptyManufacturer_2013()
         {
             bool caughtException = false;
             const string ExpectedExceptionMessage = "The parameter for the make cannot be an empty string. (Parameter 'make')";
             try
             {
-                var response = new ReadAPI().GetModels(string.Empty, 2013);
+                var response = ReadAPI.GetModels(string.Empty, 2013);
             }
             catch (ArgumentException ex)
             {
@@ -176,57 +190,62 @@ namespace NHTSAVehicleAPITest
         }
 
         /// <summary>
-        /// Test <see cref="ReadAPI.GetModels(string)"/> using the live <c>NHTSA</c> servers
+        /// Test <see cref="ReadAPI.GetModels(string)"/> using the live NHTSA servers.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live)]
+        [TestMethod]
+        [TestCategory(TestGroups.Live)]
         public void TestGetModels_Ford()
         {
-            var response = new ReadAPI().GetModels("ford");
+            var response = ReadAPI.GetModels("ford");
             Assert.IsTrue(response.Count > 0);
             Assert.IsTrue(response.Message.Contains("successful"));
             Assert.AreEqual(response.Count, response.ModelsForMake.Count);
         }
 
         /// <summary>
-        /// Test <see cref="ReadAPI.GetModels(string, int)"/> using the live <c>NHTSA</c> servers
+        /// Test <see cref="ReadAPI.GetModels(string, int)"/> using the live NHTSA servers.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live)]
+        [TestMethod]
+        [TestCategory(TestGroups.Live)]
         public void TestGetModels_Ford_2015()
         {
-            var response = new ReadAPI().GetModels("ford", 2015);
+            var response = ReadAPI.GetModels("ford", 2015);
             Assert.IsTrue(response.Count > 0);
             Assert.IsTrue(response.Message.Contains("successful"));
             Assert.AreEqual(response.Count, response.MakeModels.Count);
         }
 
         /// <summary>
-        /// Test <see cref="ReadAPI.GetModels(string)"/> using the live <c>NHTSA</c> servers
+        /// Test <see cref="ReadAPI.GetModels(string)"/> using the live NHTSA servers.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live)]
+        [TestMethod]
+        [TestCategory(TestGroups.Live)]
         public void TestGetModels_Honda()
         {
-            var response = new ReadAPI().GetModels("honda");
+            var response = ReadAPI.GetModels("honda");
             Assert.IsTrue(response.Count > 0);
             Assert.IsTrue(response.Message.Contains("successful"));
             Assert.AreEqual(response.Count, response.ModelsForMake.Count);
         }
 
         /// <summary>
-        /// Test <see cref="ReadAPI.GetModels(string, int)"/> using the live <c>NHTSA</c> servers
+        /// Test <see cref="ReadAPI.GetModels(string, int)"/> using the live NHTSA servers.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live)]
+        [TestMethod]
+        [TestCategory(TestGroups.Live)]
         public void TestGetModels_Honda_2014()
         {
-            var response = new ReadAPI().GetModels("honda", 2014);
+            var response = ReadAPI.GetModels("honda", 2014);
             Assert.IsTrue(response.Count > 0);
             Assert.IsTrue(response.Message.Contains("successful"));
             Assert.AreEqual(response.Count, response.MakeModels.Count);
         }
 
         /// <summary>
-        /// Test <see cref="ReadAPI.GetModels(string, int)"/> by passing in an 1800 as the year
+        /// Test <see cref="ReadAPI.GetModels(string, int)"/> by passing in an 1800 as the year.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live)]
+        [TestMethod]
+        [TestCategory(TestGroups.Live)]
         public void TestGetModels_Honda_InvalidYear1800()
         {
             bool caughtException = false;
@@ -234,7 +253,7 @@ namespace NHTSAVehicleAPITest
             string expectedExceptionMessage = "The parameter for the year must be between 1879 and " + DateTime.Now.AddYears(1).Year + ". (Parameter 'year')";
             try
             {
-                var response = new ReadAPI().GetModels("honda", 1800);
+                var response = ReadAPI.GetModels("honda", 1800);
             }
             catch (ArgumentException ex)
             {
@@ -247,9 +266,10 @@ namespace NHTSAVehicleAPITest
         }
 
         /// <summary>
-        /// Test <see cref="ReadAPI.GetModels(string, int)"/> by passing in an 2199 as the year
+        /// Test <see cref="ReadAPI.GetModels(string, int)"/> by passing in an 2199 as the year.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live)]
+        [TestMethod]
+        [TestCategory(TestGroups.Live)]
         public void TestGetModels_Honda_InvalidYear2199()
         {
             bool caughtException = false;
@@ -257,7 +277,7 @@ namespace NHTSAVehicleAPITest
             string expectedExceptionMessage = "The parameter for the year must be between 1879 and " + DateTime.Now.AddYears(1).Year + ". (Parameter 'year')";
             try
             {
-                var response = new ReadAPI().GetModels("honda", 2199);
+                var response = ReadAPI.GetModels("honda", 2199);
             }
             catch (ArgumentException ex)
             {
@@ -273,10 +293,11 @@ namespace NHTSAVehicleAPITest
         /// Test requesting results for some manufacturer name that we know to be fictitious. We
         /// would expect to get a good and safe response back, though with no results.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live)]
+        [TestMethod]
+        [TestCategory(TestGroups.Live)]
         public void TestGetModels_InvalidManufacturer()
         {
-            var response = new ReadAPI().GetModels("hello_bad_manufacturer_name");
+            var response = ReadAPI.GetModels("hello_bad_manufacturer_name");
             Assert.AreEqual(0, response.Count);
             Assert.IsTrue(response.Message.Contains("successful"));
             Assert.AreEqual(response.Count, response.ModelsForMake.Count);
@@ -286,19 +307,21 @@ namespace NHTSAVehicleAPITest
         /// Test requesting results for some manufacturer name that we know to be fictitious. We
         /// would expect to get a good and safe response back, though with no results.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Live)]
+        [TestMethod]
+        [TestCategory(TestGroups.Live)]
         public void TestGetModels_InvalidManufacturer_2013()
         {
-            var response = new ReadAPI().GetModels("hello_bad_manufacturer_name", 2013);
+            var response = ReadAPI.GetModels("hello_bad_manufacturer_name", 2013);
             Assert.AreEqual(0, response.Count);
             Assert.IsTrue(response.Message.Contains("successful"));
             Assert.AreEqual(response.Count, response.MakeModels.Count);
         }
 
         /// <summary>
-        /// Test the <see cref="Make"/> constructor that takes in a <see cref="DataRow"/>
+        /// Test the <see cref="Make"/> constructor that takes in a <see cref="DataRow"/>.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
         public void TestMakeConstructor()
         {
             DataTable dt = new DataTable("spGetMakes");
@@ -317,9 +340,10 @@ namespace NHTSAVehicleAPITest
 
         /// <summary>
         /// Test the <see cref="Make"/> constructor that takes in a <see cref="DataRow"/> and make
-        /// sure that it handles getting invalid data
+        /// sure that it handles getting invalid data.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
         public void TestMakeConstructor_InvalidData_MakeID()
         {
             DataTable dt = new DataTable("spGetMakes");
@@ -338,9 +362,10 @@ namespace NHTSAVehicleAPITest
 
         /// <summary>
         /// Test the <see cref="Make"/> constructor that takes in a <see cref="DataRow"/> and make
-        /// sure that it gracefully handles getting a table format that is incomplete
+        /// sure that it gracefully handles getting a table format that is incomplete.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
         public void TestMakeConstructor_InvalidTable_MissingMakeIDColumn()
         {
             DataTable dt = new DataTable("spGetMakes");
@@ -356,9 +381,10 @@ namespace NHTSAVehicleAPITest
 
         /// <summary>
         /// Test the <see cref="Make"/> constructor that takes in a <see cref="DataRow"/> and make
-        /// sure that it gracefully handles getting a table format that is incomplete
+        /// sure that it gracefully handles getting a table format that is incomplete.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
         public void TestMakeConstructor_InvalidTable_MissingMakeNameColumn()
         {
             DataTable dt = new DataTable("spGetMakes");
@@ -373,9 +399,10 @@ namespace NHTSAVehicleAPITest
         }
 
         /// <summary>
-        /// Test the <see cref="Model"/> constructor that takes in a <see cref="DataRow"/>
+        /// Test the <see cref="Model"/> constructor that takes in a <see cref="DataRow"/>.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
         public void TestModelConstructor()
         {
             DataTable dt = new DataTable("spGetModels");
@@ -394,9 +421,10 @@ namespace NHTSAVehicleAPITest
 
         /// <summary>
         /// Test the <see cref="Model"/> constructor that takes in a <see cref="DataRow"/> and make
-        /// sure that it handles getting invalid data
+        /// sure that it handles getting invalid data.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
         public void TestModelConstructor_InvalidData_ModelID()
         {
             DataTable dt = new DataTable("spGetModels");
@@ -415,9 +443,10 @@ namespace NHTSAVehicleAPITest
 
         /// <summary>
         /// Test the <see cref="Model"/> constructor that takes in a <see cref="DataRow"/> and make
-        /// sure that it gracefully handles getting a table format that is incomplete
+        /// sure that it gracefully handles getting a table format that is incomplete.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
         public void TestModelConstructor_InvalidTable_MissingModelIDColumn()
         {
             DataTable dt = new DataTable("spGetModels");
@@ -433,9 +462,10 @@ namespace NHTSAVehicleAPITest
 
         /// <summary>
         /// Test the <see cref="Model"/> constructor that takes in a <see cref="DataRow"/> and make
-        /// sure that it gracefully handles getting a table format that is incomplete
+        /// sure that it gracefully handles getting a table format that is incomplete.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
         public void TestModelConstructor_InvalidTable_MissingModelNameColumn()
         {
             DataTable dt = new DataTable("spGetModels");
@@ -450,21 +480,22 @@ namespace NHTSAVehicleAPITest
         }
 
         /// <summary>
-        /// Test a simple serialization to try to replicate <c>GetAllMakes</c>
+        /// Test a simple serialization to try to replicate <c>GetAllMakes</c>.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
         public void TestSerializeSampleData_GetAllMakes()
         {
             List<Make> vehichles = new List<Make>
             {
                 new Make { MakeID = 1, MakeName = "Honda" },
-                new Make { MakeID = 2, MakeName = "Tesla" }
+                new Make { MakeID = 2, MakeName = "Tesla" },
             };
 
             GetAllVehicleMakes results = new GetAllVehicleMakes
             {
                 AllVehicleMakes = vehichles,
-                Count = vehichles.Count
+                Count = vehichles.Count,
             };
 
             string tempFile = System.IO.Path.GetTempFileName();
@@ -478,9 +509,11 @@ namespace NHTSAVehicleAPITest
         }
 
         /// <summary>
-        /// Test a simple serialization to try to replicate <c>GetManufacturerDetails</c>
+        /// Test a simple serialization to try to replicate <c>GetManufacturerDetails</c>.
         /// </summary>
-        [TestMethod, TestCategory(TestGroups.Validate), TestCategory(TestGroups.Serialization)]
+        [TestMethod]
+        [TestCategory(TestGroups.Validate)]
+        [TestCategory(TestGroups.Serialization)]
         public void TestSerializeSampleData_GetManufacturerDetails()
         {
             GetManufacturerDetails results = new GetManufacturerDetails
@@ -504,9 +537,9 @@ namespace NHTSAVehicleAPITest
                         ContactEmail = "Unknown@unknown.com",
                         SubmittedOn = new DateTime(2014, 1, 1),
                         ManufacturerTypes = new List<ManufacturerType>() { new ManufacturerType() { Name = "Some type" } },
-                        VehicleTypes = new List<VehicleType>() { new VehicleType() { Name = "Truck", IsPrimary = true }, new VehicleType() { Name = "Car", IsPrimary = false } }
-                    }
-                }
+                        VehicleTypes = new List<VehicleType>() { new VehicleType() { Name = "Truck", IsPrimary = true }, new VehicleType() { Name = "Car", IsPrimary = false } },
+                    },
+                },
             };
 
             string tempFile = System.IO.Path.GetTempFileName();
@@ -531,10 +564,10 @@ namespace NHTSAVehicleAPITest
         }
 
         /// <summary>
-        /// Compare two files and make sure that the original file is at least a subset of the new file
+        /// Compare two files and make sure that the original file is at least a subset of the new file.
         /// </summary>
-        /// <param name="newFile">New file</param>
-        /// <param name="originalFile">Original File</param>
+        /// <param name="newFile">New file.</param>
+        /// <param name="originalFile">Original File.</param>
         private static void CompareFiles(string newFile, string originalFile)
         {
             string newFileContents = System.IO.File.ReadAllText(newFile).Replace("\r", string.Empty).Replace("\n", string.Empty);
