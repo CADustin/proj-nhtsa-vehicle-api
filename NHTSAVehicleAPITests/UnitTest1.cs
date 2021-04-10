@@ -30,7 +30,7 @@ namespace NHTSAVehicleAPITest
         {
             const string RealDataFile = @"Data/GetAllMakes.xml";
 
-            var deserializedResults = SerializeConfig<NHTSAVehicleAPI.Schema.GetAllVehicleMakes>.DeserializeUsingXmlSerializer(RealDataFile);
+            var deserializedResults = SerializeConfig<GetAllVehicleMakes>.DeserializeUsingXmlSerializer(RealDataFile);
             Assert.AreEqual(8716, deserializedResults.AllVehicleMakes.Count);
             Assert.AreEqual(deserializedResults.Count, deserializedResults.AllVehicleMakes.Count);
             Assert.IsTrue(deserializedResults.AllVehicleMakes.Any(x => x.MakeName == "Tesla"));
@@ -38,7 +38,7 @@ namespace NHTSAVehicleAPITest
 
             // Reserialize the data, but to a temp file
             string tempFile = System.IO.Path.GetTempFileName();
-            SerializeConfig<NHTSAVehicleAPI.Schema.GetAllVehicleMakes>.SerializeUsingXmlSerializer(tempFile, deserializedResults);
+            SerializeConfig<GetAllVehicleMakes>.SerializeUsingXmlSerializer(tempFile, deserializedResults);
 
             UnitTest1.CompareFiles(tempFile, RealDataFile);
         }
@@ -55,12 +55,12 @@ namespace NHTSAVehicleAPITest
         {
             const string RealDataFile = @"Data/GetManufacturerDetails_Honda.xml";
 
-            var deserializedResults = SerializeConfig<NHTSAVehicleAPI.Schema.GetManufacturerDetails>.DeserializeUsingXmlSerializer(RealDataFile);
+            var deserializedResults = SerializeConfig<GetManufacturerDetails>.DeserializeUsingXmlSerializer(RealDataFile);
             Assert.AreEqual(13, deserializedResults.ManufacturerDetails.Count);
 
             // Reserialize the data, but to a temp file
             string tempFile = System.IO.Path.GetTempFileName();
-            SerializeConfig<NHTSAVehicleAPI.Schema.GetManufacturerDetails>.SerializeUsingXmlSerializer(tempFile, deserializedResults);
+            SerializeConfig<GetManufacturerDetails>.SerializeUsingXmlSerializer(tempFile, deserializedResults);
 
             UnitTest1.CompareFiles(tempFile, RealDataFile);
         }
@@ -77,12 +77,12 @@ namespace NHTSAVehicleAPITest
         {
             const string RealDataFile = @"Data/GetModelsForMake_Honda.xml";
 
-            var deserializedResults = SerializeConfig<NHTSAVehicleAPI.Schema.GetModelsForMake>.DeserializeUsingXmlSerializer(RealDataFile);
+            var deserializedResults = SerializeConfig<GetModelsForMake>.DeserializeUsingXmlSerializer(RealDataFile);
             Assert.AreEqual(810, deserializedResults.ModelsForMake.Count);
 
             // Reserialize the data, but to a temp file
             string tempFile = System.IO.Path.GetTempFileName();
-            SerializeConfig<NHTSAVehicleAPI.Schema.GetModelsForMake>.SerializeUsingXmlSerializer(tempFile, deserializedResults);
+            SerializeConfig<GetModelsForMake>.SerializeUsingXmlSerializer(tempFile, deserializedResults);
 
             UnitTest1.CompareFiles(tempFile, RealDataFile);
         }
@@ -99,12 +99,12 @@ namespace NHTSAVehicleAPITest
         {
             const string RealDataFile = @"Data/GetModelsForMakeId_440.xml";
 
-            var deserializedResults = SerializeConfig<NHTSAVehicleAPI.Schema.GetModelsForMake>.DeserializeUsingXmlSerializer(RealDataFile);
+            var deserializedResults = SerializeConfig<GetModelsForMake>.DeserializeUsingXmlSerializer(RealDataFile);
             Assert.AreEqual(13, deserializedResults.ModelsForMake.Count);
 
             // Reserialize the data, but to a temp file
             string tempFile = System.IO.Path.GetTempFileName();
-            SerializeConfig<NHTSAVehicleAPI.Schema.GetModelsForMake>.SerializeUsingXmlSerializer(tempFile, deserializedResults);
+            SerializeConfig<GetModelsForMake>.SerializeUsingXmlSerializer(tempFile, deserializedResults);
 
             UnitTest1.CompareFiles(tempFile, RealDataFile);
         }
@@ -121,12 +121,12 @@ namespace NHTSAVehicleAPITest
         {
             const string RealDataFile = @"Data/GetModelsForMakeIdYear_474_2015.xml";
 
-            var deserializedResults = SerializeConfig<NHTSAVehicleAPI.Schema.GetMakeModels>.DeserializeUsingXmlSerializer(RealDataFile);
+            var deserializedResults = SerializeConfig<GetMakeModels>.DeserializeUsingXmlSerializer(RealDataFile);
             Assert.AreEqual(169, deserializedResults.MakeModels.Count);
 
             // Reserialize the data, but to a temp file
             string tempFile = System.IO.Path.GetTempFileName();
-            SerializeConfig<NHTSAVehicleAPI.Schema.GetMakeModels>.SerializeUsingXmlSerializer(tempFile, deserializedResults);
+            SerializeConfig<GetMakeModels>.SerializeUsingXmlSerializer(tempFile, deserializedResults);
 
             UnitTest1.CompareFiles(tempFile, RealDataFile);
         }
@@ -143,12 +143,12 @@ namespace NHTSAVehicleAPITest
         {
             const string RealDataFile = @"Data/GetModelsForMakeYear_Honda_2015.xml";
 
-            var deserializedResults = SerializeConfig<NHTSAVehicleAPI.Schema.GetMakeModels>.DeserializeUsingXmlSerializer(RealDataFile);
+            var deserializedResults = SerializeConfig<GetMakeModels>.DeserializeUsingXmlSerializer(RealDataFile);
             Assert.AreEqual(169, deserializedResults.MakeModels.Count);
 
             // Reserialize the data, but to a temp file
             string tempFile = System.IO.Path.GetTempFileName();
-            SerializeConfig<NHTSAVehicleAPI.Schema.GetMakeModels>.SerializeUsingXmlSerializer(tempFile, deserializedResults);
+            SerializeConfig<GetMakeModels>.SerializeUsingXmlSerializer(tempFile, deserializedResults);
 
             UnitTest1.CompareFiles(tempFile, RealDataFile);
         }
